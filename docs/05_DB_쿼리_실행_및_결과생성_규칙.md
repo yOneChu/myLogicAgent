@@ -1,0 +1,169 @@
+---
+trigger: always_on
+---
+
+# LLM 쿼리 작성 및 CSV/Excel 생성 수행 규칙
+
+## 1. 목적
+
+이 문서는 LLM이 PLM DB 조회 쿼리를 작성하고 실행 결과를 CSV 또는 Excel(xlsx) 파일로 생성할 때 따라야 할 공통 규칙을 정의한다.
+
+LLM은 사용자의 자연어 요청을 바탕으로 SQL을 작성하되, 반드시 지정된 테이블 정의서와 실행 규칙을 참고하여 일관된 방식으로 처리해야 한다.
+
+## 2. 참조 파일 및 폴더
+
+| 구분 | 경로 | 용도 |
+|---|---|---|
+| 쿼리 실행 규칙 | `.agents/rules/sql_execute_api_definition.md` | SQL 실행 방법 및 API 정의 참고 |
+| 테이블 정의서 | `reference/plm_db_metadata/` | SQL 작성 시 테이블, 컬럼, 조인 조건 참고 |
+| PID 조회 기본 SQL | `reference/plm_db_metadata/pid_query.sql` | PID 조회 요청 시 기준 SQL로 사용 |
+| CSV 생성 스크립트 | `scripts/db_query/query_to_csv.py` | SQL 실행 결과를 CSV로 저장할 때 사용 |
+| Excel 생성 스크립트 | `scripts/db_query/query_to_excel.py` | SQL 실행 결과를 Excel(xlsx)로 저장할 때 사용 |
+| SQL 임시 파일 | `scripts/db_query/query.sql` | 실행할 SQL 쿼리를 저장하는 파일 |
+| CSV 출력 폴더 | `output_csv` | 생성된 CSV 파일 저장 위치 |
+| Excel 출력 폴더 | `output_excel` | 생성된 Excel 파일 저장 위치 (스크립트가 자동 생성) |
+
+## 3. 쿼리 작성 공통 규칙
+
+1. SQL 작성 시 반드시 `reference/plm_db_metadata/` 폴더의 테이블 정의서를 먼저 참고한다.
+2. SQL 실행 방법은 반드시 `.agents/rules/sql_execute_api_definition.md` 파일의 규칙을 따른다.
+3. 쿼리를 수행할 때는 항상 실행할 SQL을 `scripts/db_query/query.sql` 파일에 먼저 생성한다.
+4. `scripts/db_query/query.sql`에 저장하는 SQL의 마지막에는 세미콜론(`;`)을 붙이지 않는다.
+5. 사용자가 요청한 조건, 컬럼, 필터 기준이 불명확한 경우 임의로 확정하지 말고 필요한 기준을 확인한다.
+
+## 4. PID 조회 및 분석 요청 수행 규칙
+
+사용자가 PID 조회 또는 PID 분석을 요청하면 아래 순서대로 수행한다.
+
+1. `reference/plm_db_metadata/pid_query.sql` 파일을 기준 SQL로 사용한다.
+2. 기준 SQL 안의 `PID명` 위치에 사용자가 입력한 PID 값을 넣는다.
+3. 완성된 SQL은 `scripts/db_query/query.sql` 파일에 저장한다.
+4. CSV 생성은 `scripts/db_query/query_to_csv.py` 파일을 사용한다.
+5. CSV 파일명은 기본적으로 사용자가 입력한 PID명 뒤에 언더바(_)와 현재 날짜(YYYYMMDD) 접미사를 추가하여 `legacy_logic/` 폴더 하위에 생성한다.
+   - 예: PID가 `EL_PA103A`이고 오늘 날짜가 2026년 7월 16일이면 `legacy_logic/EL_PA103A_20260716.csv`
+6. CSV 생성 시 한글이 깨지지 않도록 반드시 `utf-8-sig` 인코딩을 사용한다.
+7. 엑셀에서 CSV 파일을 열었을 때 한글이 정상적으로 표시되어야 한다.
+
+## 5. CSV 자동 생성 규칙
+
+### 5.1 기본 출력 위치
+
+1. 일반 쿼리 결과 CSV 파일은 `output_csv` 폴더에 생성한다. (단, PID 조회 결과는 `legacy_logic/`에 생성한다.)
+2. 출력 폴더가 없으면 생성 전에 먼저 생성한다.
+
+### 5.2 기본 파일명
+
+일반 쿼리 실행 결과의 기본 CSV 파일명은 아래와 같이 사용한다.
+
+```text
+output_csv/result.csv
+```
+
+### 5.3 기존 파일이 존재하는 경우
+
+`output_csv/result.csv` 파일이 이미 존재하면 기존 파일을 덮어쓰지 않는다.
+
+사용 가능한 다음 번호를 자동으로 선택하여 파일명을 생성한다.
+
+```text
+output_csv/result_v1.csv
+output_csv/result_v2.csv
+output_csv/result_v3.csv
+```
+
+예를 들어 `result.csv`, `result_v1.csv`가 이미 존재하면 출력 파일명은 `result_v2.csv`로 한다.
+
+### 5.4 PID 조회 파일명 규칙
+
+PID 조회 요청의 경우 출력 파일명은 PID명 뒤에 언더바(_)와 오늘 날짜(YYYYMMDD) 접미사를 포함하여 생성하며, `legacy_logic/` 폴더에 위치시킨다.
+
+```text
+legacy_logic/{PID명}_{YYYYMMDD}.csv
+```
+
+동일한 파일이 이미 존재하면 이력 관리 및 작업 연속성을 위해 기존 파일을 덮어쓴다. (동일 날짜 기준 최신 DB 본으로 유지)
+
+## 6. query_to_csv.py 실행 규칙
+
+1. CSV 파일 생성은 `scripts/db_query/query_to_csv.py`를 사용한다.
+2. 실행 SQL은 `scripts/db_query/query.sql` 파일의 내용을 기준으로 한다.
+3. 최종적으로 결정된 CSV 파일명을 `--output` 파라미터에 사용한다.
+4. CSV 저장 인코딩은 반드시 `utf-8-sig`로 처리한다.
+5. CSV 파일 생성 시에는 결과로 나오는 명령어만 실행하고, 불필요한 설명이나 추가 텍스트를 출력하지 않는다.
+
+## 7. Excel 자동 생성 규칙
+
+사용자가 결과를 Excel(xlsx) 파일로 요청하면 아래 규칙을 따른다.
+
+### 7.1 실행 방법
+
+1. Excel 파일 생성은 `scripts/db_query/query_to_excel.py`를 사용한다.
+2. 실행 SQL은 CSV와 동일하게 `scripts/db_query/query.sql` 파일의 내용을 기준으로 한다.
+3. Excel 파일 생성 시에도 결과로 나오는 명령어만 실행하고, 불필요한 설명이나 추가 텍스트를 출력하지 않는다.
+
+### 7.2 출력 위치 및 파일명
+
+1. Excel 파일은 `output_excel` 폴더에 생성된다. 폴더가 없으면 스크립트가 자동으로 생성한다.
+2. `--output` 파라미터에는 경로 없이 파일명만 지정한다. 경로를 포함해도 파일명 부분만 사용된다.
+3. 확장자가 `.xlsx`가 아니면 자동으로 `.xlsx`로 저장된다.
+4. 일반 쿼리 실행 결과의 기본 파일명은 `result.xlsx`로 한다.
+5. PID 조회 요청의 경우 파일명은 `{PID명}.xlsx`로 한다.
+
+### 7.3 기존 파일이 존재하는 경우
+
+CSV와 동일한 버전 번호 규칙을 적용한다. 동일한 파일이 이미 존재하면 기존 파일을 덮어쓰지 않고 사용 가능한 다음 번호를 자동으로 선택한다.
+
+```text
+result_v1.xlsx
+result_v2.xlsx
+{PID명}_v1.xlsx
+{PID명}_v2.xlsx
+```
+
+## 8. 실행 예시
+
+일반 쿼리 실행 예시:
+
+```bash
+py scripts/db_query/query_to_csv.py --sql-file scripts/db_query/query.sql --output output_csv/result.csv
+```
+
+기존 파일이 있는 경우:
+
+```bash
+py scripts/db_query/query_to_csv.py --sql-file scripts/db_query/query.sql --output output_csv/result_v1.csv
+```
+
+PID 조회 예시:
+
+```bash
+py scripts/db_query/query_to_csv.py --sql-file scripts/db_query/query.sql --output output_csv/EL_PA103A.csv
+```
+
+Excel 생성 예시 (`output_excel` 폴더에 생성됨):
+
+```bash
+py scripts/db_query/query_to_excel.py --sql-file scripts/db_query/query.sql --output result.xlsx
+```
+
+Excel PID 조회 예시:
+
+```bash
+py scripts/db_query/query_to_excel.py --sql-file scripts/db_query/query.sql --output EL_PA103A.xlsx
+```
+
+## 9. 수행 체크리스트
+
+쿼리 실행 전 아래 항목을 반드시 확인한다.
+
+| 확인 항목 | 내용 |
+|---|---|
+| 테이블 정의서 확인 | `reference/plm_db_metadata/` 폴더의 관련 테이블 정의서를 참고했는가 |
+| 실행 규칙 확인 | `.agents/rules/sql_execute_api_definition.md` 파일의 실행 규칙을 따랐는가 |
+| SQL 파일 생성 | 실행 SQL을 `scripts/db_query/query.sql` 파일에 저장했는가 |
+| 세미콜론 제거 | SQL 마지막에 세미콜론(`;`)을 붙이지 않았는가 |
+| 출력 폴더 확인 | `output_csv` 폴더가 존재하는가 |
+| 파일명 중복 방지 | 기존 CSV/Excel 파일을 덮어쓰지 않도록 파일명을 결정했는가 |
+| 인코딩 확인 | CSV를 `utf-8-sig` 인코딩으로 저장했는가 |
+| 한글 표시 확인 | 엑셀에서 CSV를 열었을 때 한글이 정상 표시되는가 |
+| Excel 스크립트 확인 | Excel 요청 시 `scripts/db_query/query_to_excel.py`를 사용했는가 |
