@@ -30,7 +30,6 @@ trigger: always_on
 ## ADDR / GOTO (분기)
 - GOTO: 'STOP'이면 해당 행에서 멈추고, 그 이외의 값이면 ADDR에 동일한 값인 행으로 이동하며 그 사이에 있는 행들은 건너뛴다.
 - ADDR: 흐름 라벨/분기 시작점 (예: `MAIN`, `INIT`)
-- `GOTO=STOP`: 더 이상 이동하지 않고 종료하는 예약어
 - GOTO로 분기한 이후의 줄에는 동일 조건을 재입력할 필요가 없다.
 
 ## REMARKS
