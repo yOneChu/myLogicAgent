@@ -70,8 +70,14 @@ def request_json(sql: str, insecure: bool = False) -> Any:
         context = ssl._create_unverified_context()
 
     with urlopen(req, timeout=120, context=context) as response:
-        charset = response.headers.get_content_charset() or "utf-8"
-        body = response.read().decode(charset)
+        raw_body = response.read()
+
+    try:
+        body = raw_body.decode("utf-8")
+        if "\ufffd" in body:
+            body = raw_body.decode("cp949")
+    except (UnicodeDecodeError, UnicodeEncodeError):
+        body = raw_body.decode("cp949", errors="replace")
 
     try:
         return json.loads(body)

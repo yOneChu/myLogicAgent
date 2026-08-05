@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+trigger: manual
 ---
 
 # LLM 쿼리 작성 및 CSV/Excel 생성 수행 규칙
