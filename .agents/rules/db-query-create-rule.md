@@ -15,8 +15,10 @@ LLM은 사용자의 자연어 요청을 바탕으로 SQL을 작성하되, 반드
 | 구분 | 경로 | 용도 |
 |---|---|---|
 | 쿼리 실행 규칙 | `.agents/rules/sql_execute_api_definition.md` | SQL 실행 방법 및 API 정의 참고 |
-| 테이블 정의서 | `reference/plm_db_metadata/` | SQL 작성 시 테이블, 컬럼, 조인 조건 참고 |
-| PID 조회 기본 SQL | `reference/plm_db_metadata/pid_query.sql` | PID 조회 요청 시 기준 SQL로 사용 |
+| PLM DB 테이블 정의서 | `reference/db_metadata/PLM_DB_TABLE_명세서_v1.md` | SQL 작성 시 테이블, 컬럼, 조인 조건 참고 |
+| PLM API 명세서 | `reference/db_metadata/PLM_DB_TABLE_명세서_v1.md` | SQL 작성 시 테이블, 컬럼, 조인 조건 참고 |
+| 엘리베이터 및 육상 특성코드 API 명세서 | `reference/db_metadata/[API]_엘베_선박_특성코드_v1.md` | 특성코드, 공사정보 필드 리스트 |
+| PID 조회 기본 SQL | `reference/db_metadata/pid_query.sql` | PID 조회 요청 시 기준 SQL로 사용 |
 | CSV 생성 스크립트 | `scripts/db_query/query_to_csv.py` | SQL 실행 결과를 CSV로 저장할 때 사용 |
 | Excel 생성 스크립트 | `scripts/db_query/query_to_excel.py` | SQL 실행 결과를 Excel(xlsx)로 저장할 때 사용 |
 | SQL 임시 파일 | `scripts/db_query/query.sql` | 실행할 SQL 쿼리를 저장하는 파일 |
@@ -25,17 +27,18 @@ LLM은 사용자의 자연어 요청을 바탕으로 SQL을 작성하되, 반드
 
 ## 3. 쿼리 작성 공통 규칙
 
-1. SQL 작성 시 반드시 `reference/plm_db_metadata/` 폴더의 테이블 정의서를 먼저 참고한다.
+1. SQL 작성 시 반드시 `reference/db_metadata/` 폴더의 테이블 정의서를 먼저 참고한다.
 2. SQL 실행 방법은 반드시 `.agents/rules/sql_execute_api_definition.md` 파일의 규칙을 따른다.
-3. 쿼리를 수행할 때는 항상 실행할 SQL을 `scripts/db_query/query.sql` 파일에 먼저 생성한다.
+3. 쿼리를 수행(실행)할 때는 항상 실행할 SQL을 `scripts/db_query/query.sql` 파일에 먼저 생성한다.
 4. `scripts/db_query/query.sql`에 저장하는 SQL의 마지막에는 세미콜론(`;`)을 붙이지 않는다.
 5. 사용자가 요청한 조건, 컬럼, 필터 기준이 불명확한 경우 임의로 확정하지 말고 필요한 기준을 확인한다.
+6. 쿼리 작성 시, DB에 부하가 가지 않도록 작성한다. 만약 데이터가 너무 많으면 꼭 기간 범위 조건이 있어야하며 없다면 요청자에게 기간(범위)를 설정해댤라고 해라. 말을 따르지 않는다면 쿼리 작성을 거부한다.
 
 ## 4. PID 조회 및 분석 요청 수행 규칙
 
 사용자가 PID 조회 또는 PID 분석을 요청하면 아래 순서대로 수행한다.
 
-1. `reference/plm_db_metadata/pid_query.sql` 파일을 기준 SQL로 사용한다.
+1. `reference/db_metadata/pid_query.sql` 파일을 기준 SQL로 사용한다.
 2. 기준 SQL 안의 `PID명` 위치에 사용자가 입력한 PID 값을 넣는다.
 3. 완성된 SQL은 `scripts/db_query/query.sql` 파일에 저장한다.
 4. CSV 생성은 `scripts/db_query/query_to_csv.py` 파일을 사용한다.

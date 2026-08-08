@@ -1,0 +1,10 @@
+﻿PID,VERSION,NO,ADDR,GOTO,SPEC1,CON1,SPEC2,CON2,SPEC3,CON3,KEY1,VAL1,KEY2,VAL2,REMARKS
+BOM_E321A,8,1,INIT,-,-,-,-,-,-,-,-,-,-,-,-
+BOM_E321A,8,2,-,-,-,-,-,-,-,-,PROJ_NO,{md$number},-,-,시뮬레이션 확인용 로직
+BOM_E321A,8,3,-,-,FUNCTION_READ_BOM_FLAG,!Y,-,-,-,-,CALL,FUNCTION_READ_BOM,-,-,시뮬레이션 확인용 로직
+BOM_E321A,8,4,-,-,-,-,-,-,-,-,PART_NO,-,BLOCK,-,-
+BOM_E321A,8,5,-,-,-,-,-,-,-,-,-,-,-,-,-
+BOM_E321A,8,6,MAIN,-,-,-,-,-,-,-,-,-,-,-,-
+BOM_E321A,8,7,-,-,E321A_PNO,N,-,-,-,-,-,-,BLOCK,E321A,-
+BOM_E321A,8,8,-,-,E321A_PNO,!N,EL_BWCAD,",D,AD",EL_BCL,",?CD191?,?CD199?,?CD319?,?CD399?",PART_NO,{E321A_PNO},BLOCK,E321A,이중구조 적용 시 SMPS HOLE 적용 정합성 검토 추가(01372)
+BOM_E321A,8,9,-,-,E321A_PNO,!N,EL_ACD2,?EN?,EL_DCEEE,!N,PART_NO,{E321A_PNO},BLOCK,E321A,-

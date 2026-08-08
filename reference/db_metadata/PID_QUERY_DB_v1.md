@@ -34,8 +34,16 @@ PID의 헤더 정보를 관리하는 테이블이다.
 | `HOUID` | PID 헤더 고유 ID | `VARIANT_D`, `VARIANT_ID`와 조인할 때 사용 |
 | `REG_DATE` | PID 등록일자 | 
 | `VERSION` | PID 버전 | 
+| `USERID` | 등록자 사번 | 
 
-테스트 버전을 조회할 때는 VERSION의 값이 '-1'인 값이다.
+
+- 테스트 버전을 조회할 때는 VERSION의 값이 '-1'인 값이다.
+- 사번(USERID)의 이름은 'FUSER$SF' 테이블의 MD$DESC 컬럼에서 조회한다. 이 때 MD$NUMBER가 USERID와 일치하는 값을 사용한다.
+```
+(
+        SELECT F.MD$DESC FROM FUSER$SF F
+            WHERE F.MD$NUMBER = H.USERID) 
+```
 
 ### 3.2 VARIANT_D
 
@@ -48,10 +56,10 @@ PID의 상세 조건, 사양, 키, 값, 그리고 분기 흐름을 관리하는 
 | `ADDR` | 분기 라벨(흐름 시작점). 예: `MAIN`, `INIT` | 기존 로직의 실행 흐름을 구간별로 나눌 때 사용 |
 | `GOTO` | 분기 대상. 조건 만족 시 이동할 `ADDR` 값, 또는 더 이상 이동하지 않고 종료하는 예약어 `STOP` | 이 행 이후 어디로 흐름이 이어지는지 판단할 때 사용 |
 | `REMARKS` | 비고 | 비고 조회 시 사용 |
-| `SPEC1` ~ `SPEC20` | 사양 항목명 | PID 조건의 사양명 또는 조건 항목명 조회 시 사용 |
-| `CON1` ~ `CON20` | 사양 조건값 | 각 `SPEC`에 대응되는 조건식 또는 조건값 조회 시 사용 |
-| `KEY1` ~ `KEY20` | 결과 항목명 | PID 실행 결과 또는 산출 항목명 조회 시 사용 |
-| `VAL1` ~ `VAL20` | 결과 값 | 각 `KEY`에 대응되는 산출값 조회 시 사용 |
+| `SPEC1` ~ `SPEC30` | 사양 항목명 | PID 조건의 사양명 또는 조건 항목명 조회 시 사용 |
+| `CON1` ~ `CON30` | 사양 조건값 | 각 `SPEC`에 대응되는 조건식 또는 조건값 조회 시 사용 |
+| `KEY1` ~ `KEY30` | 결과 항목명 | PID 실행 결과 또는 산출 항목명 조회 시 사용 |
+| `VAL1` ~ `VAL30` | 결과 값 | 각 `KEY`에 대응되는 산출값 조회 시 사용 |
 
 
 ### 3.3 VARIANT_ID
@@ -112,6 +120,10 @@ FROM HDEL_DEFAULT.variant_d d, HDEL_DEFAULT.variant_h h
 SELECT H.PID,
        H.REG_DATE, 
        H.VERSION,
+       H.USERID,
+       (
+        SELECT F.MD$DESC FROM FUSER$SF F
+            WHERE F.MD$NUMBER = H.USERID) AS 등록자,
        D.NO,
        NVL(D.ADDR, '-') AS ADDR,
        NVL(D.GOTO, '-') AS GOTO,
@@ -136,6 +148,16 @@ SELECT H.PID,
        NVL(D.SPEC18, '-') AS SPEC18, NVL(D.CON18, '-') AS CON18,
        NVL(D.SPEC19, '-') AS SPEC19, NVL(D.CON19, '-') AS CON19,
        NVL(D.SPEC20, '-') AS SPEC20, NVL(D.CON20, '-') AS CON20,
+       NVL(D.SPEC21, '-') AS SPEC21, NVL(D.CON21, '-') AS CON21,
+       NVL(D.SPEC22, '-') AS SPEC22, NVL(D.CON22, '-') AS CON22,
+       NVL(D.SPEC23, '-') AS SPEC23, NVL(D.CON23, '-') AS CON23,
+       NVL(D.SPEC24, '-') AS SPEC24, NVL(D.CON24, '-') AS CON24,
+       NVL(D.SPEC25, '-') AS SPEC25, NVL(D.CON25, '-') AS CON25,
+       NVL(D.SPEC26, '-') AS SPEC26, NVL(D.CON26, '-') AS CON26,
+       NVL(D.SPEC27, '-') AS SPEC27, NVL(D.CON27, '-') AS CON27,
+       NVL(D.SPEC28, '-') AS SPEC28, NVL(D.CON28, '-') AS CON28,
+       NVL(D.SPEC29, '-') AS SPEC29, NVL(D.CON29, '-') AS CON29,
+       NVL(D.SPEC30, '-') AS SPEC30, NVL(D.CON30, '-') AS CON30,
        NVL(D.KEY1, '-') AS KEY1, NVL(D.VAL1, '-') AS VAL1,
        NVL(D.KEY2, '-') AS KEY2, NVL(D.VAL2, '-') AS VAL2,
        NVL(D.KEY3, '-') AS KEY3, NVL(D.VAL3, '-') AS VAL3,
@@ -155,7 +177,17 @@ SELECT H.PID,
        NVL(D.KEY17, '-') AS KEY17, NVL(D.VAL17, '-') AS VAL17,
        NVL(D.KEY18, '-') AS KEY18, NVL(D.VAL18, '-') AS VAL18,
        NVL(D.KEY19, '-') AS KEY19, NVL(D.VAL19, '-') AS VAL19,
-       NVL(D.KEY20, '-') AS KEY20, NVL(D.VAL20, '-') AS VAL20
+       NVL(D.KEY20, '-') AS KEY20, NVL(D.VAL20, '-') AS VAL20,
+       NVL(D.KEY21, '-') AS KEY21, NVL(D.VAL21, '-') AS VAL21,
+       NVL(D.KEY22, '-') AS KEY22, NVL(D.VAL22, '-') AS VAL22,
+       NVL(D.KEY23, '-') AS KEY23, NVL(D.VAL23, '-') AS VAL23,
+       NVL(D.KEY24, '-') AS KEY24, NVL(D.VAL24, '-') AS VAL24,
+       NVL(D.KEY25, '-') AS KEY25, NVL(D.VAL25, '-') AS VAL25,
+       NVL(D.KEY26, '-') AS KEY26, NVL(D.VAL26, '-') AS VAL26,
+       NVL(D.KEY27, '-') AS KEY27, NVL(D.VAL27, '-') AS VAL27,
+       NVL(D.KEY28, '-') AS KEY28, NVL(D.VAL28, '-') AS VAL28,
+       NVL(D.KEY29, '-') AS KEY29, NVL(D.VAL29, '-') AS VAL29,
+       NVL(D.KEY30, '-') AS KEY30, NVL(D.VAL30, '-') AS VAL30
  FROM HDEL_DEFAULT.VARIANT_D D,
       HDEL_DEFAULT.VARIANT_H H,
       HDEL_DEFAULT.VARIANT_ID ID
@@ -184,8 +216,8 @@ ORDER BY D.NO
 | 자연어 요청 예시 | SQL 생성 기준 |
 |---|---|
 | `EL_PA103A PID 조회해줘` | `H.PID = 'EL_PA103A'` 조건으로 전체 컬럼(ADDR/GOTO 포함) 조회 |
-| `PID 조건 조회해줘` | `SPEC1` ~ `SPEC20`, `CON1` ~ `CON20` 중심으로 조회 |
-| `PID 결과값 조회해줘` | `KEY1` ~ `KEY20`, `VAL1` ~ `VAL20` 중심으로 조회 |
+| `PID 조건 조회해줘` | `SPEC1` ~ `SPEC30`, `CON1` ~ `CON30` 중심으로 조회 |
+| `PID 결과값 조회해줘` | `KEY1` ~ `KEY30`, `VAL1` ~ `VAL30` 중심으로 조회 |
 | `PID 분기/흐름 조회해줘` | `ADDR`, `GOTO`, `NO` 중심으로 조회 |
 | `PID 비고 포함해서 조회해줘` | `D.REMARKS` 컬럼 포함 |
 | `PID 상세 순서대로 조회해줘` | `ORDER BY D.NO` 사용 |
@@ -217,8 +249,8 @@ ORDER BY D.NO
 - PID명은 `HDEL_DEFAULT.VARIANT_H.PID`에서 조회한다.
 - 최신 PID 기준 조회를 위해 `HDEL_DEFAULT.VARIANT_ID.LAST_HOUID`와 `HDEL_DEFAULT.VARIANT_H.HOUID`를 조인한다.
 - 상세 조건, 결과, 그리고 분기 흐름(ADDR/GOTO)은 `HDEL_DEFAULT.VARIANT_D`에서 조회한다.
-- `SPEC1` ~ `SPEC20`은 조건 항목명, `CON1` ~ `CON20`은 조건값이다.
-- `KEY1` ~ `KEY20`은 결과 항목명, `VAL1` ~ `VAL20`은 결과값이다.
-- `ADDR`은 분기 라벨, `GOTO`는 분기 대상(또는 `STOP`)이다.
+- `SPEC1` ~ `SPEC30`은 조건 항목명, `CON1` ~ `CON30`은 조건값이다.
+- `KEY1` ~ `KEY30`은 결과 항목명, `VAL1` ~ `VAL30`은 결과값이다.
+- `ADDR`은 분기 라벨, `GOTO`는 분기 대상(또는 `STOP`)이다.  
 - NULL 값은 `NVL(컬럼, '-')`로 처리한다.
 - 상세 라인 정렬은 `ORDER BY D.NO`를 사용한다.

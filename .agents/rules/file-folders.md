@@ -35,7 +35,6 @@ workspace/
 - 이후 작업은 모두 공통 .venv를 기준으로 진행합니다.
 
 
-
 ## 추가 사항
 - LLM을 통해 쿼리 실행 및 PLM API 수행하는 결과는 /script/db_query 폴더 안의 'query_to_csv.py' , 'query_to_excel.py'을 통해 csv와 excel파일을 생성한다.  조회 쿼리를 작성하고 실행 결과를 CSV 또는 Excel(xlsx) 파일로 생성할 때 따라야 할 공통 규칙을 정의한다.
 

@@ -1,0 +1,11 @@
+﻿PID,VERSION,NO,ADDR,GOTO,SPEC1,CON1,SPEC2,CON2,SPEC3,CON3,SPEC4,CON4,KEY1,VAL1,KEY2,VAL2,KEY3,VAL3,REMARKS
+BOM_E321A,8,1,INIT,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+BOM_E321A,8,2,-,-,-,-,-,-,-,-,-,-,PROJ_NO,{md$number},-,-,-,-,시뮬레이션 확인용 로직
+BOM_E321A,8,3,-,-,FUNCTION_READ_BOM_FLAG,!Y,-,-,-,-,-,-,CALL,FUNCTION_READ_BOM,-,-,-,-,시뮬레이션 확인용 로직
+BOM_E321A,8,4,-,-,-,-,-,-,-,-,-,-,PART_NO,-,BLOCK,-,ERR_LV,-,-
+BOM_E321A,8,5,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+BOM_E321A,8,6,MAIN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+BOM_E321A,8,7,-,-,E321A_PNO,N,-,-,-,-,-,-,-,-,BLOCK,E321A,ERR_LV,IMPORTANT,-
+BOM_E321A,8,8,-,-,E321A_PNO,!N,EL_BWCAD,",D,AD",EL_BCL,",?CD191?,?CD199?,?CD319?,?CD399?",-,-,PART_NO,{E321A_PNO},BLOCK,E321A,ERR_LV,WARNING,이중구조 적용 시 SMPS HOLE 적용 정합성 검토 추가(01372)
+BOM_E321A,8,9,-,-,E321A_PNO,!N,EL_ACD2,?EN?,EL_DCEEE,!N,-,-,PART_NO,{E321A_PNO},BLOCK,E321A,ERR_LV,WARNING,-
+BOM_E321A,8,10,-,-,E321A_CMT,",?V4612?,?V04612?,?V004612?,?V0004612?",EL_ECBG,![$ {EL_ECCA} + 100 $],-,-,-,-,L_CMT,"V0004612 적용 시 CEILING ASSY(E321A) 및 ISOLATION BRKT(E321A16) 주석에 KE =[$ {K4} $], KF=[$ {K4} + 20 $]로 변경 적용돼었는지 확인할 것. (BG 비표준 값 반영)",CMT,{CMT}{L_CMT},ERR_LV,WARNING,V0004612 도면 적용 시 BG 비표준 값 정합성 안내 주석(요청 04605)
