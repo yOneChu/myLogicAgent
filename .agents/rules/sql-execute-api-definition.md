@@ -28,7 +28,7 @@ LLM은 사용자의 요청을 해석하여 SQL을 생성할 수 있지만, 데�
 ## 3. API URL
 
 ```text
-https://vault-in.hdel.co.kr:8070/api/executeQuery?key=subae&sql=
+https://vault-in.hdel.co.kr:8070/apiv2/executeQuery?key=subae&sql=
 ```
 
 SQL 쿼리는 `sql` 파라미터 값으로 전달한다.
@@ -49,7 +49,7 @@ SQL 쿼리는 `sql` 파라미터 값으로 전달한다.
 ### 5.1 기본 요청 구조
 
 ```text
-https://vault-in.hdel.co.kr:8070/api/executeQuery?key=subae&sql={SQL_QUERY}
+https://vault-in.hdel.co.kr:8070/apiv2/executeQuery?key=subae&sql={SQL_QUERY}
 ```
 
 ### 5.2 SQL 예시
@@ -70,7 +70,7 @@ WHERE A.MD$NUMBER = '03412'
 아래 예시는 이해를 돕기 위한 형태이다. 실제 호출 시에는 SQL 문자열을 URL 인코딩하여 전달해야 한다.
 
 ```text
-https://vault-in.hdel.co.kr:8070/api/executeQuery?key=subae&sql=SELECT%20A.MD%24NUMBER%20AS%20REQNO%2C%20A.MD%24STATUS%20FROM%20NEWPLMDESIGNREQUEST%24VF%20A
+https://vault-in.hdel.co.kr:8070/apiv2/executeQuery?key=subae&sql=SELECT%20A.MD%24NUMBER%20AS%20REQNO%2C%20A.MD%24STATUS%20FROM%20NEWPLMDESIGNREQUEST%24VF%20A
 ```
 
 ---
@@ -111,6 +111,10 @@ LLM은 이 API를 사용할 SQL을 생성할 때 다음 규칙을 반드시 따�
 8. 조회 목적에 필요한 컬럼과 조건만 포함한다.
 9. 과도하게 많은 데이터를 조회할 가능성이 있으면 기간 조건, 요청번호, 담당자, 상태 등의 필터를 우선 적용한다.
 10. 사용자의 조건이 불명확하면 임의로 수정성 SQL을 만들지 말고 확인 질문을 한다.
+11. PLM의 데이터가 방대하기 때문에 대용량을 대상으로 검증하는 등 쿼리는 작성하지 않도록하고, 요청자한테 안내한다.
+12. 대용량 검증 요청의 경우 꼭 기간 범위를 입력하라고 요청자한테 문의한다.
+13. 대량 조회가 우려되는 경우 기간 조건 또는 건수 제한 조건을 꼭 추가한다.
+
 
 ---
 
@@ -233,7 +237,7 @@ CALL
 생성된 SQL은 SQL 쿼리 수행 API의 sql 파라미터로 전달된다.
 
 API URL은 다음 형식을 사용한다.
-https://vault-in.hdel.co.kr:8070/api/executeQuery?key=subae&sql={URL_ENCODED_SQL}
+https://vault-in.hdel.co.kr:8070/apiv2/executeQuery?key=subae&sql={URL_ENCODED_SQL}
 
 데이터 안전 및 보안을 위해 INSERT, UPDATE, DELETE, MERGE, ALTER, DROP, TRUNCATE, CREATE 등 데이터 변경 또는 구조 변경 SQL은 절대 생성하지 않는다.
 사용자가 수정, 삭제, 반영, 저장 등 데이터 변경을 요청하면 SQL을 생성하지 말고, 조회만 가능하다고 안내한다.
