@@ -41,8 +41,8 @@ PID의 헤더 정보를 관리하는 테이블이다.
 - 사번(USERID)의 이름은 'FUSER$SF' 테이블의 MD$DESC 컬럼에서 조회한다. 이 때 MD$NUMBER가 USERID와 일치하는 값을 사용한다.
 ```
 (
-        SELECT F.MD$DESC FROM FUSER$SF F
-            WHERE F.MD$NUMBER = H.USERID) 
+      SELECT F.MD$DESC FROM FUSER$SF F WHERE F.MD$NUMBER = H.USERID
+) 
 ```
 
 ### 3.2 VARIANT_D
@@ -105,6 +105,7 @@ WHERE H.HOUID = ID.LAST_HOUID
 |---|---|
 | `H.HOUID = ID.LAST_HOUID` | 최신 PID 헤더만 조회 |
 | `H.HOUID = D.HOUID` | PID 헤더와 상세 라인 연결 |
+
 
 ## 6.1 테스트 버전 연결 규칙
 
