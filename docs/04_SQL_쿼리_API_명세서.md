@@ -78,7 +78,6 @@ https://vault-in.hdel.co.kr:8070/api/executeQuery?key=subae&sql=SELECT%20A.MD%24
 ## 6. 응답 형식
 
 API 응답은 JSON 형식으로 반환된다.
-
 응답 구조는 실행 결과에 따라 달라질 수 있으나, 기본적으로 SQL 조회 결과의 컬럼명과 데이터가 포함된다.
 
 예시:
