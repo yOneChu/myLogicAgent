@@ -1,0 +1,71 @@
+﻿Total rows: 416
+
+==========================================
+   PICK_B121A SPEC+CON 조합 중복 검사 결과  
+==========================================
+
+총 7개 그룹의 SPEC+CON 중복이 발견되었습니다.
+ - 유효한 SPEC+CON 조건 중복: 6개 그룹
+ - 빈 SPEC+CON (조건 없음) 중복: 1개 그룹
+
+============================================================
+
+[유효 조건 중복 그룹 1]
+ - 해당 라인 (NO): 76, 80 (총 2개 행)
+ - SPEC + CON 조건 내용:
+    * EL_ATYP = ?US?, EL_ACD2 = ?ASME?, AA_FRAME = -, EL_ECBB = -, EL_ACAPA = <=1600, EL_BWALLT = T19_EX1, EL_ETM = ?GU70?, EL_BFTH = -, EL_ECCH = -, EL_ERPR = 1:1
+ - 세부 행 정보 (NO / ADDR / REMARKS):
+    * 라인 76: ADDR='17', REMARKS='-'
+    * 라인 80: ADDR='21', REMARKS='-'
+------------------------------------------------------------
+
+[유효 조건 중복 그룹 2]
+ - 해당 라인 (NO): 281, 282 (총 2개 행)
+ - SPEC + CON 조건 내용:
+    * EL_ATYP = !(?SS?,?SH?), EL_AOPEN = 1SCO, AA_FRAME = 1660, EL_ECBB = 1505, EL_ECEE = 695, EL_ECHH = -, EL_ECCH = -, EL_BFTH = -, EL_ERPR = -, EL_ATR = N, EL_ETHRU = -, EL_BWALLT = T19_SD1, CARFRAME_SPEC = ,N,P, EL_ACAPA = 900, USE = -, EL_ECJJ = -, EL_ECSL = <=2400, EL_ETM = !(?GY?), EL_ECRL = -, EL_ASPD = <=120, INOV_TOPBEAM = -, EL_BCDYN = -, DICN = Y, EL_ECBG = 1700
+ - 세부 행 정보 (NO / ADDR / REMARKS):
+    * 라인 281: ADDR='-', REMARKS='-'
+    * 라인 282: ADDR='-', REMARKS='-'
+------------------------------------------------------------
+
+[유효 조건 중복 그룹 3]
+ - 해당 라인 (NO): 283, 284 (총 2개 행)
+ - SPEC + CON 조건 내용:
+    * EL_ATYP = !(?SS?,?SH?), EL_AOPEN = 1SCO, AA_FRAME = 1660, EL_ECBB = 1655, EL_ECEE = 770, EL_ECHH = -, EL_ECCH = -, EL_BFTH = -, EL_ERPR = -, EL_ATR = N, EL_ETHRU = -, EL_BWALLT = T19_SD1, CARFRAME_SPEC = ,N,P, EL_ACAPA = 1000, USE = -, EL_ECJJ = -, EL_ECSL = <=2400, EL_ETM = !(?GY?), EL_ECRL = -, EL_ASPD = <=120, INOV_TOPBEAM = -, EL_BCDYN = -, DICN = Y, EL_ECBG = 1700
+ - 세부 행 정보 (NO / ADDR / REMARKS):
+    * 라인 283: ADDR='-', REMARKS='-'
+    * 라인 284: ADDR='-', REMARKS='-'
+------------------------------------------------------------
+
+[유효 조건 중복 그룹 4]
+ - 해당 라인 (NO): 285, 286 (총 2개 행)
+ - SPEC + CON 조건 내용:
+    * EL_ATYP = !(?SS?,?SH?), EL_AOPEN = 1SCO, AA_FRAME = 1660, EL_ECBB = 1655, EL_ECEE = 770, EL_ECHH = -, EL_ECCH = -, EL_BFTH = -, EL_ERPR = -, EL_ATR = N, EL_ETHRU = -, EL_BWALLT = T19_SD1, CARFRAME_SPEC = ,N,P, EL_ACAPA = 1000, USE = -, EL_ECJJ = -, EL_ECSL = >2400, EL_ETM = !(?GY?), EL_ECRL = -, EL_ASPD = <=120, INOV_TOPBEAM = -, EL_BCDYN = -, DICN = Y, EL_ECBG = 1700
+ - 세부 행 정보 (NO / ADDR / REMARKS):
+    * 라인 285: ADDR='-', REMARKS='-'
+    * 라인 286: ADDR='-', REMARKS='-'
+------------------------------------------------------------
+
+[유효 조건 중복 그룹 5]
+ - 해당 라인 (NO): 287, 288 (총 2개 행)
+ - SPEC + CON 조건 내용:
+    * EL_ATYP = !(?SS?,?SH?), EL_AOPEN = 1SCO, AA_FRAME = 1860, EL_ECBB = 1655, EL_ECEE = 770, EL_ECHH = -, EL_ECCH = -, EL_BFTH = -, EL_ERPR = -, EL_ATR = N, EL_ETHRU = -, EL_BWALLT = T19_SD1, CARFRAME_SPEC = ,N,P, EL_ACAPA = 1150, USE = -, EL_ECJJ = -, EL_ECSL = <=3200, EL_ETM = !(?GY?), EL_ECRL = -, EL_ASPD = <=120, INOV_TOPBEAM = -, EL_BCDYN = -, DICN = Y, EL_ECBG = 1900
+ - 세부 행 정보 (NO / ADDR / REMARKS):
+    * 라인 287: ADDR='-', REMARKS='-'
+    * 라인 288: ADDR='-', REMARKS='-'
+------------------------------------------------------------
+
+[유효 조건 중복 그룹 6]
+ - 해당 라인 (NO): 291, 292 (총 2개 행)
+ - SPEC + CON 조건 내용:
+    * EL_ATYP = !(?SS?,?SH?), EL_AOPEN = 1SCO, AA_FRAME = [$ {EL_ECBG} - 40 $], EL_ECBB = -, EL_ECEE = -, EL_ECHH = -, EL_ECCH = -, EL_BFTH = -, EL_ERPR = -, EL_ATR = N, EL_ETHRU = -, EL_BWALLT = T19_SD1, CARFRAME_SPEC = ,N,P, EL_ACAPA = <=1200, USE = -, EL_ECJJ = -, EL_ECSL = <=3200, EL_ETM = !(?GY?), EL_ECRL = -, EL_ASPD = <=120, INOV_TOPBEAM = -, EL_BCDYN = -, DICN = Y, EL_ECBG = -
+ - 세부 행 정보 (NO / ADDR / REMARKS):
+    * 라인 291: ADDR='-', REMARKS='-'
+    * 라인 292: ADDR='-', REMARKS='-'
+------------------------------------------------------------
+
+[빈 SPEC+CON 조건 그룹]
+ - 해당 라인 (NO): 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 14, 17, 44, 59, 82, 106, 131, 194, 201, 208, 221, 251, 265, 294, 310, 315, 335, 341, 346, 351, 356, 376, 380, 393, 412, 416 (총 36개 행)
+ - 유형: SPEC1~30, CON1~30 조건이 모두 비어있는 행들
+------------------------------------------------------------
+
