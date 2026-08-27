@@ -1,7 +1,0 @@
-﻿REQNO,MD$STATUS,MD$DESC,MD$USER,MANAGER,HOGI,REQUESTDETAIL,ANSWERDETAIL,MD$CDATE,MD$MDATE
-04605,CRT,,2034182,김영환,N28079L01,"BOM_E321A에 해당 문구 추가
-1) 조건 : (주석에 ,?V4612?,?V04612?,?V004612?,?V0004612? 포함) + (BG=CA+100이 아닐 때)     -------- 조건 2개
-2) 정합성 출력 내용 : ""V0004612 적용 시 CEILING ASSY(E321A) 및 ISOLATION BRKT(E321A16) 주석에 KE =[$ {K4} $], KF=[$ {K4} + 20 $]로 변경 적용돼었는지 확인할 것. (BG 비표준 값 반영)""
-3) 참고 : [$ {K4} $]는 [$ 5*(round(((({AA_FRAME} - ({EL_ECCA} + 50)) * 0.5) + 12.5)/5,0)) $]      <----- CAL_NEXBRAND_CMT LINE 97 참고 하되, +52.5가 아니라 +12.5임을 참고할 것.
-4) 적용 사유 : 품질개선회의 안건 (NEX-G CEILING ASSY ISOL. 브라켓 밀착 불량 개선 요청)
-   - 설계자가 주석에 V0004612 도면 적용 시 (BG-CA-100)/2를 KE에 적용하지 않는 것을 방지하기 위함 (BG =/= CA+100)",,20260720084811,20260721093550
