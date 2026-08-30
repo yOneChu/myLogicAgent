@@ -2,7 +2,7 @@
 trigger: always_on
 ---
 
-# [업무 지시서] PLM 로직 문법 및 부품번호 DB 정합성 검증
+# [업무 지시서] PLM 로직 규칙및 부품번호 DB 정합성 검증
 
 ## 1. 업무 목적
 - 지정된 로직 PID의 구문/문법 정합성을 검증합니다.
@@ -13,12 +13,13 @@ trigger: always_on
 
 ## 2. 검증 대상 및 참조 문서
 - **검증 PID**: [검증할 PID 및 Version 입력 (예: PID='CERTI_E331A', VERSION='12')]
+- 검증할 PID만 입력면 기본적으로 최신버전으로 조회 합니다.
 - **참조 문서/코드**:
   - PID 추출 쿼리: `reference/db_metadata/pid_query.sql` 및 `reference/db_metadata/PID_QUERY_DB_v1.md`
   - 부품 속성 정보 API: `reference/db_metadata/[API]_BOM_PART.md`
   - 로직 문법 규칙: `logic-syntax.md`
   - BOM 정합성 규칙: `logic-BOM정합성_작성수정_rule.md`
-  - DB 조회 API 명세: `sql-execute-api-definition.md`
+  - DB 조회, 쿼리 작성 규칙, 쿼리 수행 API 정의서: `sql-execute-api-definition.md`
 
 ---
 
