@@ -47,6 +47,11 @@ trigger: always_on
 4. **분기 라벨(GOTO / ADDR) 검증**:
    - `GOTO`에 지정된 라벨이 전체 행의 `ADDR` 목록 중에 실제하는지 검증 (`STOP` 제외)
 
+
+1. 문법 - https://vault-in.hdel.co.kr:8070/dash/viewLogic
+2. 규칙 - https://vault-in.hdel.co.kr:8070/dash/viewLogic2
+https://vault-in.hdel.co.kr:8070/dash/viewLogi3
+
 ### 3단계: VAL(부품/자재번호) DB 존재 여부 배치 교차 검증
 1. **자재번호 추출 및 필터링**:
    - 추출된 전체 `VAL1`~`VAL20` 데이터 값만 추출합니다.
