@@ -2,7 +2,7 @@
 trigger: always_on
 ---
 
-# [업무 지시서] PLM 로직 규칙및 부품번호 DB 정합성 검증
+# [업무 지시서] PLM 로직 및 부품번호 DB 정합성 검증
 
 ## 1. 업무 목적
 - 지정된 로직 PID의 구문/문법 정합성을 검증합니다.
@@ -15,11 +15,18 @@ trigger: always_on
 - **검증 PID**: [검증할 PID 및 Version 입력 (예: PID='CERTI_E331A', VERSION='12')]
 - 검증할 PID만 입력면 기본적으로 최신버전으로 조회 합니다.
 - **참조 문서/코드**:
-  - PID 추출 쿼리: `reference/db_metadata/pid_query.sql` 및 `reference/db_metadata/PID_QUERY_DB_v1.md`
-  - 부품 속성 정보 API: `reference/db_metadata/[API]_BOM_PART.md`
-  - 로직 문법 규칙: `logic-syntax.md`
-  - BOM 정합성 규칙: `logic-BOM정합성_작성수정_rule.md`
-  - DB 조회, 쿼리 작성 규칙, 쿼리 수행 API 정의서: `sql-execute-api-definition.md`
+  1) PID 쿼리 생성을 위한 DB 정의서
+    - 호출방식 : GET
+    - API : https://vault-in.hdel.co.kr:8070/api/getLogicVerifyAsDB?key=subae&type=PID_DB_DOCUMENT
+    - 반환타입 : String
+  2) PID 추출 쿼리: `reference/db_metadata/pid_query.sql`
+  3) 부품 속성 정보 API: `reference/db_metadata/[API]_BOM_PART.md`
+  4) 로직 문법 규칙: `logic-syntax.md`
+  5) BOM 정합성 규칙: `logic-BOM정합성_작성수정_rule.md`
+  6) DB 조회, 쿼리 작성 규칙, 쿼리 수행 API 정의서
+    - 호출방식 : GET
+    - API : https://vault-in.hdel.co.kr:8070/api/getLogicVerifyAsDB?key=subae&type=QUERY_EXECUTE_API
+    - 반환타입 : String
 
 ---
 
@@ -31,7 +38,7 @@ trigger: always_on
    - **조회 조건**: `H.PID = '{대상_PID}' AND H.VERSION = '{대상_VERSION}' AND H.HOUID = D.HOUID`
    - **정렬 기준**: `ORDER BY TO_NUMBER(D.NO)`
    - **추출 컬럼**: `PID`, `VERSION`, `HOUID`, `NO`, `ADDR`, `GOTO`, `REMARKS`, `SPEC1`~`30`, `CON1`~`30`, `KEY1`~`20`, `VAL1`~`20`
-   -  **추가 쿼리 작성 규칙**: 최신 버전, 테스트 버전 조회 및 기타 응용 조회가 필요한 경우에는 반드시 `reference/db_metadata/PID_QUERY_DB_v1.md`의 조인 규칙(`VARIANT_ID.LAST_HOUID` 매핑 등)을 참고하여 쿼리를 작성합니다.
+   -  **추가 쿼리 작성 규칙**: 최신 버전, 테스트 버전 조회 및 기타 응용 조회가 필요한 경우에는 반드시 `PID 쿼리 생성을 위한 DB 정의서`의 조인 규칙(`VARIANT_ID.LAST_HOUID` 매핑 등)을 참고하여 쿼리를 작성합니다.
 2. SQL 쿼리 수행 API (`https://vault-in.hdel.co.kr:8070/api/executeQuery?key=subae&sql=...`)를 호출하여 JSON 데이터를 가져옵니다.
 
 ### 2단계: 로직 문법 및 구조 정합성 검증
@@ -48,9 +55,6 @@ trigger: always_on
    - `GOTO`에 지정된 라벨이 전체 행의 `ADDR` 목록 중에 실제하는지 검증 (`STOP` 제외)
 
 
-1. 문법 - https://vault-in.hdel.co.kr:8070/dash/viewLogic
-2. 규칙 - https://vault-in.hdel.co.kr:8070/dash/viewLogic2
-https://vault-in.hdel.co.kr:8070/dash/viewLogi3
 
 ### 3단계: VAL(부품/자재번호) DB 존재 여부 배치 교차 검증
 1. **자재번호 추출 및 필터링**:
