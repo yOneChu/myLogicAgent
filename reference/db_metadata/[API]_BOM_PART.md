@@ -1,4 +1,11 @@
 
+# PLM BOM 및 부품 관련 API 명세서
+
+이 문서는 PLM의 BOM 및 부품 관련 API 정보를 정의합니다.
+
+
+
+
 
 ## 01. 부품(자재)의 속성 정보 API
 
@@ -42,3 +49,5 @@ https://vault-in.hdel.co.kr:8070/api/findPartInfoWithList
 | `cost` | 견적사용 |
 | `design` | 설계사용 |
 
+
+---
