@@ -6,7 +6,6 @@
 
 
 
-
 ## 01. 부품(자재)의 속성 정보 API
 
 다수의 부품(자재번호)들의 속성정보를 조회한다.
@@ -48,6 +47,5 @@ https://vault-in.hdel.co.kr:8070/api/findPartInfoWithList
 | `originDiv` | 품목 |
 | `cost` | 견적사용 |
 | `design` | 설계사용 |
-
 
 ---
