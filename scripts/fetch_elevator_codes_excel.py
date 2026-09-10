@@ -105,19 +105,30 @@ def export_to_excel_fast(data: list, output_filename: str = "엘리베이터_특
     for row_data in data:
         ws.append([row_data.get(k, "") for k in field_keys])
 
+    # 헤더 필터(AutoFilter) 설정 및 행 고정(Freeze Panes)
+    ws.auto_filter.ref = f"A1:E{len(data) + 1}"
+    ws.freeze_panes = "A2"
+
     # 컬럼 너비 적절한 고정값 설정 (대용량 연산 방지)
-    column_widths = {"A": 18, "B": 28, "C": 28, "D": 28, "E": 28}
+    column_widths = {"A": 20, "B": 35, "C": 35, "D": 35, "E": 35}
     for col_letter, width in column_widths.items():
         ws.column_dimensions[col_letter].width = width
 
-    # 엑셀 파일 저장
-    wb.save(output_path)
-    return output_path
+    # output_excel 및 master_data 폴더 모두 저장
+    output_excel_dir = WORKSPACE_ROOT / "output_excel"
+    output_excel_dir.mkdir(parents=True, exist_ok=True)
+    
+    excel_path1 = MASTER_DATA_DIR / output_filename
+    excel_path2 = output_excel_dir / output_filename
+
+    wb.save(excel_path1)
+    wb.save(excel_path2)
+    return excel_path2
 
 
 def main():
     """
-    스크립트 메인 실행 함수: 특성코드 데이터를 수집하여 master_data 폴더에 엑셀로 저장합니다.
+    스크립트 메인 실행 함수: 특성코드 데이터를 수집하여 엑셀로 저장합니다.
     """
     print("엘리베이터 특성코드 API 데이터를 요청합니다...")
     data = fetch_elevator_code_list()
