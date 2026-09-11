@@ -1,0 +1,7860 @@
+[
+  {
+    "NO": 1,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "INIT",
+    "ADDR_v45": "INIT",
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916938",
+        "v45": "101711849"
+      }
+    ]
+  },
+  {
+    "NO": 2,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": "NEX_TYPE",
+    "REMARKS_v45": "NEX_TYPE",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916939",
+        "v45": "101711850"
+      }
+    ]
+  },
+  {
+    "NO": 3,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916940",
+        "v45": "101711851"
+      }
+    ]
+  },
+  {
+    "NO": 4,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": "ENTRANCE COLUMN",
+    "REMARKS_v45": "ENTRANCE COLUMN",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916941",
+        "v45": "101711852"
+      }
+    ]
+  },
+  {
+    "NO": 5,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916942",
+        "v45": "101711853"
+      }
+    ]
+  },
+  {
+    "NO": 6,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": "2SLR(LEFT, RIGHT 구분용)",
+    "REMARKS_v45": "2SLR(LEFT, RIGHT 구분용)",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916943",
+        "v45": "101711854"
+      }
+    ]
+  },
+  {
+    "NO": 7,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916944",
+        "v45": "101711855"
+      }
+    ]
+  },
+  {
+    "NO": 8,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916945",
+        "v45": "101711856"
+      }
+    ]
+  },
+  {
+    "NO": 9,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": "북미수출형",
+    "REMARKS_v45": "북미수출형",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916946",
+        "v45": "101711857"
+      }
+    ]
+  },
+  {
+    "NO": 10,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": "표준 NEX PACKAGE , NEX PLUS",
+    "REMARKS_v45": "표준 NEX PACKAGE , NEX PLUS",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916947",
+        "v45": "101711858"
+      }
+    ]
+  },
+  {
+    "NO": 11,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": "NEX SIDE OPEN (STANDARD, PLUS 의장)",
+    "REMARKS_v45": "NEX SIDE OPEN (STANDARD, PLUS 의장)",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916948",
+        "v45": "101711859"
+      }
+    ]
+  },
+  {
+    "NO": 12,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": "NEO PACKAGE",
+    "REMARKS_v45": "NEO PACKAGE",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916949",
+        "v45": "101711860"
+      }
+    ]
+  },
+  {
+    "NO": 13,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916950",
+        "v45": "101711861"
+      }
+    ]
+  },
+  {
+    "NO": 14,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916951",
+        "v45": "101711862"
+      }
+    ]
+  },
+  {
+    "NO": 15,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916952",
+        "v45": "101711863"
+      }
+    ]
+  },
+  {
+    "NO": 16,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916953",
+        "v45": "101711864"
+      }
+    ]
+  },
+  {
+    "NO": 17,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916954",
+        "v45": "101711865"
+      }
+    ]
+  },
+  {
+    "NO": 18,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916955",
+        "v45": "101711866"
+      }
+    ]
+  },
+  {
+    "NO": 19,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "MAIN",
+    "ADDR_v45": "MAIN",
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916956",
+        "v45": "101711867"
+      }
+    ]
+  },
+  {
+    "NO": 20,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "US EXPORT",
+    "ADDR_v45": "US EXPORT",
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916957",
+        "v45": "101711868"
+      }
+    ]
+  },
+  {
+    "NO": 21,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916958",
+        "v45": "101711869"
+      }
+    ]
+  },
+  {
+    "NO": 22,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916959",
+        "v45": "101711870"
+      }
+    ]
+  },
+  {
+    "NO": 23,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916960",
+        "v45": "101711871"
+      }
+    ]
+  },
+  {
+    "NO": 24,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916961",
+        "v45": "101711872"
+      }
+    ]
+  },
+  {
+    "NO": 25,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916962",
+        "v45": "101711873"
+      }
+    ]
+  },
+  {
+    "NO": 26,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916963",
+        "v45": "101711874"
+      }
+    ]
+  },
+  {
+    "NO": 27,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916964",
+        "v45": "101711875"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "?US?"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_ACD2"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "?ASME?"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2SL"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_ETHRU"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "N"
+      },
+      {
+        "field": "SPEC7",
+        "v44": "",
+        "v45": "EL_ASPSCD"
+      },
+      {
+        "field": "CON7",
+        "v44": "",
+        "v45": "?HD_?"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400491G01{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 28,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "NEX",
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916965",
+        "v45": "101711876"
+      },
+      {
+        "field": "ADDR",
+        "v44": "NEX",
+        "v45": ""
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "?US?"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_ACD2"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "?ASME?"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2SR"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_ETHRU"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "N"
+      },
+      {
+        "field": "SPEC7",
+        "v44": "",
+        "v45": "EL_ASPSCD"
+      },
+      {
+        "field": "CON7",
+        "v44": "",
+        "v45": "?HD_?"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400491G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 29,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916966",
+        "v45": "101711877"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BMDL",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": ",NEX_BB,NEX_GW",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "1SCO",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_BECM",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "SUSMIR_304",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "EL_DCFGAD",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": ",N,TRANSOM_NOTOUCH",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400124G9300",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 30,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "NEX",
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916967",
+        "v45": "101711878"
+      },
+      {
+        "field": "ADDR",
+        "v44": "",
+        "v45": "NEX"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BMDL",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": ",NEOD,NEOD_A1",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "1SCO",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_BECM",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "SUSMIR_439",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400057G01SD",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 31,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916968",
+        "v45": "101711879"
+      },
+      {
+        "field": "CON1",
+        "v44": ",NEOD,NEOD_A1",
+        "v45": ",NEX_BB,NEX_GW"
+      },
+      {
+        "field": "CON3",
+        "v44": "SUSMIR_439",
+        "v45": "SUSMIR_304"
+      },
+      {
+        "field": "CON4",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "EL_BFTH",
+        "v45": "EL_DCFGAD"
+      },
+      {
+        "field": "CON6",
+        "v44": "17",
+        "v45": ",N,TRANSOM_NOTOUCH"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400057G02SD",
+        "v45": "32400124G9300"
+      }
+    ]
+  },
+  {
+    "NO": 32,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916969",
+        "v45": "101711880"
+      },
+      {
+        "field": "CON6",
+        "v44": "25",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400057G03SD",
+        "v45": "32400057G01SD"
+      }
+    ]
+  },
+  {
+    "NO": 33,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916970",
+        "v45": "101711881"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "17"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400057G91SD",
+        "v45": "32400057G02SD"
+      }
+    ]
+  },
+  {
+    "NO": 34,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916971",
+        "v45": "101711882"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BMDL"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": ",NEOD,NEOD_A1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "1SCO"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_BECM"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "SUSMIR_439"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "25"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400057G03SD"
+      }
+    ]
+  },
+  {
+    "NO": 35,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916972",
+        "v45": "101711883"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BMDL"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": ",NEOD,NEOD_A1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "1SCO"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_BECM"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "SUSMIR_439"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400057G91SD"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 36,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "NEX SIDE OPEN",
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916973",
+        "v45": "101711884"
+      },
+      {
+        "field": "ADDR",
+        "v44": "NEX SIDE OPEN",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 37,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": "NEX 스탠다드 SIDE OPEN은 COLUMN 이 입력되지 않아 2SR일때 2번벽 재질",
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916974",
+        "v45": "101711885"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "2SR",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "VAR_MATERIAL",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "{EL_BWM02}",
+        "v45": ""
+      },
+      {
+        "field": "KEY2",
+        "v44": "CALL",
+        "v45": ""
+      },
+      {
+        "field": "VAL2",
+        "v44": "CALC_MATERIAL_CODE",
+        "v45": ""
+      },
+      {
+        "field": "REMARKS",
+        "v44": "NEX 스탠다드 SIDE OPEN은 COLUMN 이 입력되지 않아 2SR일때 2번벽 재질",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 38,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "NEX SIDE OPEN",
+    "REMARKS_v44": "NEX 스탠다드 SIDE OPEN은 COLUMN 이 입력되지 않아 2SL일때 10번벽 재질",
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916975",
+        "v45": "101711886"
+      },
+      {
+        "field": "ADDR",
+        "v44": "",
+        "v45": "NEX SIDE OPEN"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "2SL",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "VAR_MATERIAL",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "{EL_BWM10}",
+        "v45": ""
+      },
+      {
+        "field": "KEY2",
+        "v44": "CALL",
+        "v45": ""
+      },
+      {
+        "field": "VAL2",
+        "v44": "CALC_MATERIAL_CODE",
+        "v45": ""
+      },
+      {
+        "field": "REMARKS",
+        "v44": "NEX 스탠다드 SIDE OPEN은 COLUMN 이 입력되지 않아 2SL일때 10번벽 재질",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 39,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": "NEX PLUS SIDE OPEN, 관통 은 COLUMN 이 입력되지 않아 2SLR일때 2번벽 재질",
+    "REMARKS_v45": "NEX 스탠다드 SIDE OPEN은 COLUMN 이 입력되지 않아 2SR일때 2번벽 재질",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916976",
+        "v45": "101711887"
+      },
+      {
+        "field": "CON1",
+        "v44": "2SLR",
+        "v45": "2SR"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "NEX_TYPE",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": ",NEX_ECO,NEX_PLUS",
+        "v45": ""
+      },
+      {
+        "field": "REMARKS",
+        "v44": "NEX PLUS SIDE OPEN, 관통 은 COLUMN 이 입력되지 않아 2SLR일때 2번벽 재질",
+        "v45": "NEX 스탠다드 SIDE OPEN은 COLUMN 이 입력되지 않아 2SR일때 2번벽 재질"
+      }
+    ]
+  },
+  {
+    "NO": 40,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "NEX 스탠다드 SIDE OPEN은 COLUMN 이 입력되지 않아 2SL일때 10번벽 재질",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916977",
+        "v45": "101711888"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "2SL"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": "VAR_MATERIAL"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400136G01{MATERIAL_CODE}",
+        "v45": "{EL_BWM10}"
+      },
+      {
+        "field": "KEY2",
+        "v44": "",
+        "v45": "CALL"
+      },
+      {
+        "field": "VAL2",
+        "v44": "",
+        "v45": "CALC_MATERIAL_CODE"
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      },
+      {
+        "field": "REMARKS",
+        "v44": "",
+        "v45": "NEX 스탠다드 SIDE OPEN은 COLUMN 이 입력되지 않아 2SL일때 10번벽 재질"
+      }
+    ]
+  },
+  {
+    "NO": 41,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "NEX PLUS SIDE OPEN, 관통 은 COLUMN 이 입력되지 않아 2SLR일때 2번벽 재질",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916978",
+        "v45": "101711889"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": "NEX_TYPE"
+      },
+      {
+        "field": "CON2",
+        "v44": "2SL",
+        "v45": ",NEX_ECO,NEX_PLUS"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": "VAR_MATERIAL"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400136G02{MATERIAL_CODE}",
+        "v45": "{EL_BWM02}"
+      },
+      {
+        "field": "KEY2",
+        "v44": "",
+        "v45": "CALL"
+      },
+      {
+        "field": "VAL2",
+        "v44": "",
+        "v45": "CALC_MATERIAL_CODE"
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      },
+      {
+        "field": "REMARKS",
+        "v44": "",
+        "v45": "NEX PLUS SIDE OPEN, 관통 은 COLUMN 이 입력되지 않아 2SLR일때 2번벽 재질"
+      }
+    ]
+  },
+  {
+    "NO": 42,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916979",
+        "v45": "101711890"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400136G91{MATERIAL_CODE}",
+        "v45": "32400136G01{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 43,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916980",
+        "v45": "101711891"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400136G92{MATERIAL_CODE}",
+        "v45": "32400136G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 44,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916981",
+        "v45": "101711892"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "?T19?"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.2"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400136G91{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 45,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916982",
+        "v45": "101711893"
+      },
+      {
+        "field": "CON2",
+        "v44": "2SR",
+        "v45": "2SL"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": ",1.5,1.6",
+        "v45": "1.2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400143G01{MATERIAL_CODE}",
+        "v45": "32400136G92{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 46,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916983",
+        "v45": "101711894"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SL",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": ",1.5,1.6",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400143G02{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 47,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916984",
+        "v45": "101711895"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400143G91{MATERIAL_CODE}",
+        "v45": "32400143G01{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 48,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916985",
+        "v45": "101711896"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400143G92{MATERIAL_CODE}",
+        "v45": "32400143G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 49,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916986",
+        "v45": "101711897"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "?T19?"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": ",1.5,1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400143G91{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 50,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916987",
+        "v45": "101711898"
+      },
+      {
+        "field": "CON2",
+        "v44": "2SLR",
+        "v45": "2SL"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ",1.5,1.6"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400136G01{MATERIAL_CODE}",
+        "v45": "32400143G92{MATERIAL_CODE}"
+      },
+      {
+        "field": "KEY2",
+        "v44": "EL_PE324A_2",
+        "v45": ""
+      },
+      {
+        "field": "VAL2",
+        "v44": "32400136G02{MATERIAL_CODE}",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 51,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916988",
+        "v45": "101711899"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SLR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400136G91{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "KEY2",
+        "v44": "EL_PE324A_2",
+        "v45": ""
+      },
+      {
+        "field": "VAL2",
+        "v44": "32400136G92{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 52,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916989",
+        "v45": "101711900"
+      },
+      {
+        "field": "CON6",
+        "v44": ",1.5,1.6",
+        "v45": "1.2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400143G01{MATERIAL_CODE}",
+        "v45": "32400136G01{MATERIAL_CODE}"
+      },
+      {
+        "field": "VAL2",
+        "v44": "32400143G02{MATERIAL_CODE}",
+        "v45": "32400136G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 53,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916990",
+        "v45": "101711901"
+      },
+      {
+        "field": "CON6",
+        "v44": ",1.5,1.6",
+        "v45": "1.2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400143G91{MATERIAL_CODE}",
+        "v45": "32400136G91{MATERIAL_CODE}"
+      },
+      {
+        "field": "VAL2",
+        "v44": "32400143G92{MATERIAL_CODE}",
+        "v45": "32400136G92{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 54,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916991",
+        "v45": "101711902"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "?T19?"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": ",1.5,1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400143G01{MATERIAL_CODE}"
+      },
+      {
+        "field": "KEY2",
+        "v44": "",
+        "v45": "EL_PE324A_2"
+      },
+      {
+        "field": "VAL2",
+        "v44": "",
+        "v45": "32400143G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 55,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916992",
+        "v45": "101711903"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "?T19?"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": ",1.5,1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400143G91{MATERIAL_CODE}"
+      },
+      {
+        "field": "KEY2",
+        "v44": "",
+        "v45": "EL_PE324A_2"
+      },
+      {
+        "field": "VAL2",
+        "v44": "",
+        "v45": "32400143G92{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 56,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "NEO_MRL",
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916993",
+        "v45": "101711904"
+      },
+      {
+        "field": "ADDR",
+        "v44": "NEO_MRL",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 57,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916994",
+        "v45": "101711905"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BMDL",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?NEO?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "1SCO",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_BECM",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "SUSMIR_439",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400057G01SD",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 58,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "NEO_MRL",
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916995",
+        "v45": "101711906"
+      },
+      {
+        "field": "ADDR",
+        "v44": "",
+        "v45": "NEO_MRL"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BMDL",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?NEO?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "1SCO",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_BECM",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "SUSMIR_439",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "17",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400057G02SD",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 59,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916996",
+        "v45": "101711907"
+      },
+      {
+        "field": "CON6",
+        "v44": "25",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400057G03SD",
+        "v45": "32400057G01SD"
+      }
+    ]
+  },
+  {
+    "NO": 60,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916997",
+        "v45": "101711908"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "17"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400057G91SD",
+        "v45": "32400057G02SD"
+      }
+    ]
+  },
+  {
+    "NO": 61,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916998",
+        "v45": "101711909"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BMDL"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "?NEO?"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "1SCO"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_BECM"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "SUSMIR_439"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "25"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400057G03SD"
+      }
+    ]
+  },
+  {
+    "NO": 62,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "CO",
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67916999",
+        "v45": "101711910"
+      },
+      {
+        "field": "ADDR",
+        "v44": "CO",
+        "v45": ""
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BMDL"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "?NEO?"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "1SCO"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_BECM"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "SUSMIR_439"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400057G91SD"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 63,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917000",
+        "v45": "101711911"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "?CO?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400090G01{MATERIAL_CODE}",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 64,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "CO",
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917001",
+        "v45": "101711912"
+      },
+      {
+        "field": "ADDR",
+        "v44": "",
+        "v45": "CO"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "?CO?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400090G02{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 65,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917002",
+        "v45": "101711913"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400090G06{MATERIAL_CODE}",
+        "v45": "32400090G01{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 66,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917003",
+        "v45": "101711914"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400090G07{MATERIAL_CODE}",
+        "v45": "32400090G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 67,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917004",
+        "v45": "101711915"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "?CO?"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "1.2"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400090G06{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 68,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917005",
+        "v45": "101711916"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "1.5",
+        "v45": "1.2"
+      },
+      {
+        "field": "CON6",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400091G01{MATERIAL_CODE}",
+        "v45": "32400090G07{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 69,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917006",
+        "v45": "101711917"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "?CO?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "1.5",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400091G91{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 70,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917007",
+        "v45": "101711918"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400091G02{MATERIAL_CODE}",
+        "v45": "32400091G01{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 71,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917008",
+        "v45": "101711919"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400091G92{MATERIAL_CODE}",
+        "v45": "32400091G91{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 72,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917009",
+        "v45": "101711920"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "?CO?"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "1.5"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400091G02{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 73,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917010",
+        "v45": "101711921"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON5",
+        "v44": "1.6",
+        "v45": "1.5"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400092G01{MATERIAL_CODE}",
+        "v45": "32400091G92{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 74,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917011",
+        "v45": "101711922"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "?CO?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "1.6",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400092G02{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 75,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917012",
+        "v45": "101711923"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "?T19?"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "?CO?"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "1.6"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400092G01{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 76,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917013",
+        "v45": "101711924"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "?CO?"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "1.6"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400092G02{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 77,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "2SR",
+    "ADDR_v45": null,
+    "REMARKS_v44": "RIGHT SIDE OPEN",
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917014",
+        "v45": "101711925"
+      },
+      {
+        "field": "ADDR",
+        "v44": "2SR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G01{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "REMARKS",
+        "v44": "RIGHT SIDE OPEN",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 78,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917015",
+        "v45": "101711926"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G03{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 79,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "2SR",
+    "REMARKS_v44": null,
+    "REMARKS_v45": "RIGHT SIDE OPEN",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917016",
+        "v45": "101711927"
+      },
+      {
+        "field": "ADDR",
+        "v44": "",
+        "v45": "2SR"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G05{MATERIAL_CODE}",
+        "v45": "32400111G01{MATERIAL_CODE}"
+      },
+      {
+        "field": "REMARKS",
+        "v44": "",
+        "v45": "RIGHT SIDE OPEN"
+      }
+    ]
+  },
+  {
+    "NO": 80,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917017",
+        "v45": "101711928"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G02{MATERIAL_CODE}",
+        "v45": "32400111G03{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 81,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917018",
+        "v45": "101711929"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G04{MATERIAL_CODE}",
+        "v45": "32400111G05{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 82,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917019",
+        "v45": "101711930"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G06{MATERIAL_CODE}",
+        "v45": "32400111G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 83,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917020",
+        "v45": "101711931"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.2"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400111G04{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 84,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917021",
+        "v45": "101711932"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.5",
+        "v45": "1.2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G01{MATERIAL_CODE}",
+        "v45": "32400111G06{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 85,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917022",
+        "v45": "101711933"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.5",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G03{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 86,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917023",
+        "v45": "101711934"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G05{MATERIAL_CODE}",
+        "v45": "32400112G01{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 87,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917024",
+        "v45": "101711935"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G02{MATERIAL_CODE}",
+        "v45": "32400112G03{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 88,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917025",
+        "v45": "101711936"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G04{MATERIAL_CODE}",
+        "v45": "32400112G05{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 89,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917026",
+        "v45": "101711937"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G06{MATERIAL_CODE}",
+        "v45": "32400112G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 90,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917027",
+        "v45": "101711938"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.5"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400112G04{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 91,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917028",
+        "v45": "101711939"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.6",
+        "v45": "1.5"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G01{MATERIAL_CODE}",
+        "v45": "32400112G06{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 92,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917029",
+        "v45": "101711940"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.6",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G03{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 93,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917030",
+        "v45": "101711941"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G05{MATERIAL_CODE}",
+        "v45": "32400113G01{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 94,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917031",
+        "v45": "101711942"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G02{MATERIAL_CODE}",
+        "v45": "32400113G03{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 95,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917032",
+        "v45": "101711943"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G04{MATERIAL_CODE}",
+        "v45": "32400113G05{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 96,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917033",
+        "v45": "101711944"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G06{MATERIAL_CODE}",
+        "v45": "32400113G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 97,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917034",
+        "v45": "101711945"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400113G04{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 98,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917035",
+        "v45": "101711946"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400113G06{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 99,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "2SL",
+    "ADDR_v45": null,
+    "REMARKS_v44": "LEFT SIDE OPEN",
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917036",
+        "v45": "101711947"
+      },
+      {
+        "field": "ADDR",
+        "v44": "2SL",
+        "v45": ""
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SL",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G07{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "REMARKS",
+        "v44": "LEFT SIDE OPEN",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 100,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917037",
+        "v45": "101711948"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SL",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G09{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 101,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "2SL",
+    "REMARKS_v44": null,
+    "REMARKS_v45": "LEFT SIDE OPEN",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917038",
+        "v45": "101711949"
+      },
+      {
+        "field": "ADDR",
+        "v44": "",
+        "v45": "2SL"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G11{MATERIAL_CODE}",
+        "v45": "32400111G07{MATERIAL_CODE}"
+      },
+      {
+        "field": "REMARKS",
+        "v44": "",
+        "v45": "LEFT SIDE OPEN"
+      }
+    ]
+  },
+  {
+    "NO": 102,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917039",
+        "v45": "101711950"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G08{MATERIAL_CODE}",
+        "v45": "32400111G09{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 103,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917040",
+        "v45": "101711951"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G10{MATERIAL_CODE}",
+        "v45": "32400111G11{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 104,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917041",
+        "v45": "101711952"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G12{MATERIAL_CODE}",
+        "v45": "32400111G08{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 105,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917042",
+        "v45": "101711953"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SL"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.2"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400111G10{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 106,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917043",
+        "v45": "101711954"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.5",
+        "v45": "1.2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G07{MATERIAL_CODE}",
+        "v45": "32400111G12{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 107,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917044",
+        "v45": "101711955"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SL",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.5",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G09{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 108,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917045",
+        "v45": "101711956"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G11{MATERIAL_CODE}",
+        "v45": "32400112G07{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 109,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917046",
+        "v45": "101711957"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G08{MATERIAL_CODE}",
+        "v45": "32400112G09{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 110,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917047",
+        "v45": "101711958"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G10{MATERIAL_CODE}",
+        "v45": "32400112G11{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 111,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917048",
+        "v45": "101711959"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G12{MATERIAL_CODE}",
+        "v45": "32400112G08{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 112,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917049",
+        "v45": "101711960"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SL"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.5"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400112G10{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 113,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917050",
+        "v45": "101711961"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.6",
+        "v45": "1.5"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G07{MATERIAL_CODE}",
+        "v45": "32400112G12{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 114,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917051",
+        "v45": "101711962"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SL",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.6",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G09{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 115,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917052",
+        "v45": "101711963"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G11{MATERIAL_CODE}",
+        "v45": "32400113G07{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 116,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917053",
+        "v45": "101711964"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G08{MATERIAL_CODE}",
+        "v45": "32400113G09{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 117,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917054",
+        "v45": "101711965"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G10{MATERIAL_CODE}",
+        "v45": "32400113G11{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 118,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917055",
+        "v45": "101711966"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G12{MATERIAL_CODE}",
+        "v45": "32400113G08{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 119,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917056",
+        "v45": "101711967"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SL"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400113G10{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 120,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917057",
+        "v45": "101711968"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SL"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400113G12{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 121,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "2SLR",
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917058",
+        "v45": "101711969"
+      },
+      {
+        "field": "ADDR",
+        "v44": "2SLR",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 122,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "RIGHT",
+    "ADDR_v45": null,
+    "REMARKS_v44": "2SLR 경우, RIGHT측 COLUMN",
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917059",
+        "v45": "101711970"
+      },
+      {
+        "field": "ADDR",
+        "v44": "RIGHT",
+        "v45": ""
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SLR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G01{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "LEFT",
+        "v45": ""
+      },
+      {
+        "field": "REMARKS",
+        "v44": "2SLR 경우, RIGHT측 COLUMN",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 123,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "2SLR",
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917060",
+        "v45": "101711971"
+      },
+      {
+        "field": "ADDR",
+        "v44": "",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SLR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G03{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "LEFT",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 124,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "RIGHT",
+    "REMARKS_v44": null,
+    "REMARKS_v45": "2SLR 경우, RIGHT측 COLUMN",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917061",
+        "v45": "101711972"
+      },
+      {
+        "field": "ADDR",
+        "v44": "",
+        "v45": "RIGHT"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G05{MATERIAL_CODE}",
+        "v45": "32400111G01{MATERIAL_CODE}"
+      },
+      {
+        "field": "REMARKS",
+        "v44": "",
+        "v45": "2SLR 경우, RIGHT측 COLUMN"
+      }
+    ]
+  },
+  {
+    "NO": 125,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917062",
+        "v45": "101711973"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G02{MATERIAL_CODE}",
+        "v45": "32400111G03{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 126,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917063",
+        "v45": "101711974"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G04{MATERIAL_CODE}",
+        "v45": "32400111G05{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 127,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917064",
+        "v45": "101711975"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G06{MATERIAL_CODE}",
+        "v45": "32400111G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 128,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917065",
+        "v45": "101711976"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.2"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400111G04{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "LEFT"
+      }
+    ]
+  },
+  {
+    "NO": 129,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917066",
+        "v45": "101711977"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.5",
+        "v45": "1.2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G01{MATERIAL_CODE}",
+        "v45": "32400111G06{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 130,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917067",
+        "v45": "101711978"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SLR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.5",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G03{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "LEFT",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 131,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917068",
+        "v45": "101711979"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G05{MATERIAL_CODE}",
+        "v45": "32400112G01{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 132,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917069",
+        "v45": "101711980"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G02{MATERIAL_CODE}",
+        "v45": "32400112G03{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 133,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917070",
+        "v45": "101711981"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G04{MATERIAL_CODE}",
+        "v45": "32400112G05{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 134,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917071",
+        "v45": "101711982"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G06{MATERIAL_CODE}",
+        "v45": "32400112G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 135,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917072",
+        "v45": "101711983"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.5"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400112G04{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "LEFT"
+      }
+    ]
+  },
+  {
+    "NO": 136,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917073",
+        "v45": "101711984"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.6",
+        "v45": "1.5"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G01{MATERIAL_CODE}",
+        "v45": "32400112G06{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 137,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917074",
+        "v45": "101711985"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SLR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.6",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_1",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G03{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "LEFT",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 138,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917075",
+        "v45": "101711986"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G05{MATERIAL_CODE}",
+        "v45": "32400113G01{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 139,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917076",
+        "v45": "101711987"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G02{MATERIAL_CODE}",
+        "v45": "32400113G03{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 140,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917077",
+        "v45": "101711988"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G04{MATERIAL_CODE}",
+        "v45": "32400113G05{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 141,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917078",
+        "v45": "101711989"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G06{MATERIAL_CODE}",
+        "v45": "32400113G02{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 142,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917079",
+        "v45": "101711990"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400113G04{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "LEFT"
+      }
+    ]
+  },
+  {
+    "NO": 143,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "LEFT",
+    "ADDR_v45": null,
+    "REMARKS_v44": "2SLR 경우, LEFT측 COLUMN",
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917080",
+        "v45": "101711991"
+      },
+      {
+        "field": "ADDR",
+        "v44": "LEFT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": "1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_2",
+        "v45": "EL_PE324A_1"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G07{MATERIAL_CODE}",
+        "v45": "32400113G06{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": "LEFT"
+      },
+      {
+        "field": "REMARKS",
+        "v44": "2SLR 경우, LEFT측 COLUMN",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 144,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917081",
+        "v45": "101711992"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SLR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.2",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_2",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G09{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 145,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "LEFT",
+    "REMARKS_v44": null,
+    "REMARKS_v45": "2SLR 경우, LEFT측 COLUMN",
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917082",
+        "v45": "101711993"
+      },
+      {
+        "field": "ADDR",
+        "v44": "",
+        "v45": "LEFT"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G11{MATERIAL_CODE}",
+        "v45": "32400111G07{MATERIAL_CODE}"
+      },
+      {
+        "field": "REMARKS",
+        "v44": "",
+        "v45": "2SLR 경우, LEFT측 COLUMN"
+      }
+    ]
+  },
+  {
+    "NO": 146,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917083",
+        "v45": "101711994"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G08{MATERIAL_CODE}",
+        "v45": "32400111G09{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 147,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917084",
+        "v45": "101711995"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G10{MATERIAL_CODE}",
+        "v45": "32400111G11{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 148,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917085",
+        "v45": "101711996"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400111G12{MATERIAL_CODE}",
+        "v45": "32400111G08{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 149,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917086",
+        "v45": "101711997"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.2"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400111G10{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 150,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917087",
+        "v45": "101711998"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.5",
+        "v45": "1.2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G07{MATERIAL_CODE}",
+        "v45": "32400111G12{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 151,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917088",
+        "v45": "101711999"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SLR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.5",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_2",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G09{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 152,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917089",
+        "v45": "101712000"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G11{MATERIAL_CODE}",
+        "v45": "32400112G07{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 153,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917090",
+        "v45": "101712001"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G08{MATERIAL_CODE}",
+        "v45": "32400112G09{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 154,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917091",
+        "v45": "101712002"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G10{MATERIAL_CODE}",
+        "v45": "32400112G11{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 155,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917092",
+        "v45": "101712003"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400112G12{MATERIAL_CODE}",
+        "v45": "32400112G08{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 156,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917093",
+        "v45": "101712004"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.5"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400112G10{MATERIAL_CODE}"
+      },
+      {
+        "field": "GOTO",
+        "v44": "",
+        "v45": "STOP"
+      }
+    ]
+  },
+  {
+    "NO": 157,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917094",
+        "v45": "101712005"
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.6",
+        "v45": "1.5"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G07{MATERIAL_CODE}",
+        "v45": "32400112G12{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 158,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917095",
+        "v45": "101712006"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "EL_BWALLT",
+        "v45": ""
+      },
+      {
+        "field": "CON1",
+        "v44": "?T19?",
+        "v45": ""
+      },
+      {
+        "field": "SPEC2",
+        "v44": "EL_AOPEN",
+        "v45": ""
+      },
+      {
+        "field": "CON2",
+        "v44": "2SLR",
+        "v45": ""
+      },
+      {
+        "field": "SPEC3",
+        "v44": "EL_ECHH",
+        "v45": ""
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "SPEC4",
+        "v44": "EL_ECCH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC5",
+        "v44": "EL_BFTH",
+        "v45": ""
+      },
+      {
+        "field": "SPEC6",
+        "v44": "MATERIAL_T",
+        "v45": ""
+      },
+      {
+        "field": "CON6",
+        "v44": "1.6",
+        "v45": ""
+      },
+      {
+        "field": "KEY1",
+        "v44": "EL_PE324A_2",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G09{MATERIAL_CODE}",
+        "v45": ""
+      },
+      {
+        "field": "GOTO",
+        "v44": "STOP",
+        "v45": ""
+      }
+    ]
+  },
+  {
+    "NO": 159,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917096",
+        "v45": "101712007"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G11{MATERIAL_CODE}",
+        "v45": "32400113G07{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 160,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917097",
+        "v45": "101712008"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON4",
+        "v44": "2500",
+        "v45": ""
+      },
+      {
+        "field": "CON5",
+        "v44": "4",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G08{MATERIAL_CODE}",
+        "v45": "32400113G09{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 161,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917098",
+        "v45": "101712009"
+      },
+      {
+        "field": "CON1",
+        "v44": "T30_SD1",
+        "v45": "?T19?"
+      },
+      {
+        "field": "CON3",
+        "v44": "2100",
+        "v45": ""
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G10{MATERIAL_CODE}",
+        "v45": "32400113G11{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 162,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917099",
+        "v45": "101712010"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "CON4",
+        "v44": "",
+        "v45": "2500"
+      },
+      {
+        "field": "CON5",
+        "v44": "",
+        "v45": "4"
+      },
+      {
+        "field": "VAL1",
+        "v44": "32400113G12{MATERIAL_CODE}",
+        "v45": "32400113G08{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 163,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "details": [
+      {
+        "field": "DOUID",
+        "v44": "67917100",
+        "v45": "101712011"
+      },
+      {
+        "field": "SPEC1",
+        "v44": "",
+        "v45": "EL_BWALLT"
+      },
+      {
+        "field": "CON1",
+        "v44": "",
+        "v45": "T30_SD1"
+      },
+      {
+        "field": "SPEC2",
+        "v44": "",
+        "v45": "EL_AOPEN"
+      },
+      {
+        "field": "CON2",
+        "v44": "",
+        "v45": "2SLR"
+      },
+      {
+        "field": "SPEC3",
+        "v44": "",
+        "v45": "EL_ECHH"
+      },
+      {
+        "field": "CON3",
+        "v44": "",
+        "v45": "2100"
+      },
+      {
+        "field": "SPEC4",
+        "v44": "",
+        "v45": "EL_ECCH"
+      },
+      {
+        "field": "SPEC5",
+        "v44": "",
+        "v45": "EL_BFTH"
+      },
+      {
+        "field": "SPEC6",
+        "v44": "",
+        "v45": "MATERIAL_T"
+      },
+      {
+        "field": "CON6",
+        "v44": "",
+        "v45": "1.6"
+      },
+      {
+        "field": "KEY1",
+        "v44": "",
+        "v45": "EL_PE324A_2"
+      },
+      {
+        "field": "VAL1",
+        "v44": "",
+        "v45": "32400113G10{MATERIAL_CODE}"
+      }
+    ]
+  },
+  {
+    "NO": 164,
+    "TYPE": "ADDED_IN_V45",
+    "ADDR": null,
+    "GOTO": "STOP",
+    "REMARKS": null,
+    "SPECS": "EL_BWALLT=T30_SD1, EL_AOPEN=2SLR, EL_ECHH=None, EL_ECCH=None, EL_BFTH=None, MATERIAL_T=1.6",
+    "KEYS": "EL_PE324A_2=32400113G12{MATERIAL_CODE}"
+  },
+  {
+    "NO": 165,
+    "TYPE": "ADDED_IN_V45",
+    "ADDR": null,
+    "GOTO": "STOP",
+    "REMARKS": null,
+    "SPECS": "",
+    "KEYS": ""
+  }
+]
