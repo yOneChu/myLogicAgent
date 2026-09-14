@@ -44,8 +44,11 @@ https://vault-in.hdel.co.kr:8070/api/findPartInfoWithList
 | `spec` | spec |
 | `uom` | 단위 |
 | `partSize` | partSize |
-| `originDiv` | 품목 |
+| `originDiv` | 최초구분 |
 | `cost` | 견적사용 |
 | `design` | 설계사용 |
+| `PART_STATUS` | 활성상태|
+| `BLOCKNO` | BLOCKNO|
+
 
 ---
