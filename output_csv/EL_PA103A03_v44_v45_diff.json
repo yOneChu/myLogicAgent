@@ -1,0 +1,9214 @@
+[
+  {
+    "NO": 1,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "INIT",
+    "ADDR_v45": "INIT",
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651266",
+        "v45": "101931670"
+      }
+    }
+  },
+  {
+    "NO": 2,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "FIRST_DATE",
+    "REMARKS_v45": "NG550_CS",
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "CALL:CAL_FIRST_DATE"
+    ],
+    "KEYS_v45": [
+      "CALL:CAL_NG550_CS"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651267",
+        "v45": "101931671"
+      },
+      "VAL1": {
+        "v44": "CAL_FIRST_DATE",
+        "v45": "CAL_NG550_CS"
+      },
+      "REMARKS": {
+        "v44": "FIRST_DATE",
+        "v45": "NG550_CS"
+      }
+    }
+  },
+  {
+    "NO": 3,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "A103A03_1 : PULL BOX ASSY",
+    "REMARKS_v45": "FIRST_DATE",
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "OUTPUT:EL_PA103A03_1"
+    ],
+    "KEYS_v45": [
+      "CALL:CAL_FIRST_DATE"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651268",
+        "v45": "101931672"
+      },
+      "KEY1": {
+        "v44": "OUTPUT",
+        "v45": "CALL"
+      },
+      "VAL1": {
+        "v44": "EL_PA103A03_1",
+        "v45": "CAL_FIRST_DATE"
+      },
+      "REMARKS": {
+        "v44": "A103A03_1 : PULL BOX ASSY",
+        "v45": "FIRST_DATE"
+      }
+    }
+  },
+  {
+    "NO": 4,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "A103A03_1 : PULL BOX ASSY",
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_1:"
+    ],
+    "KEYS_v45": [
+      "OUTPUT:EL_PA103A03_1"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651269",
+        "v45": "101931673"
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_1",
+        "v45": "OUTPUT"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "EL_PA103A03_1"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "A103A03_1 : PULL BOX ASSY"
+      }
+    }
+  },
+  {
+    "NO": 5,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "A103A03_2 : MC FOUNDATION COVER",
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "OUTPUT:EL_PA103A03_2"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_1:"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651270",
+        "v45": "101931674"
+      },
+      "KEY1": {
+        "v44": "OUTPUT",
+        "v45": "EL_PA103A03_1"
+      },
+      "VAL1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "A103A03_2 : MC FOUNDATION COVER",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 6,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "A103A03_2 : MC FOUNDATION COVER",
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:"
+    ],
+    "KEYS_v45": [
+      "OUTPUT:EL_PA103A03_2"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651271",
+        "v45": "101931675"
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": "OUTPUT"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "A103A03_2 : MC FOUNDATION COVER"
+      }
+    }
+  },
+  {
+    "NO": 7,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "A103A03_3 : SUPPORT BEAM (CAR HITCH측)",
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "OUTPUT:EL_PA103A03_3",
+      "OUTPUT:EL_PA103A03_4"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651272",
+        "v45": "101931676"
+      },
+      "KEY1": {
+        "v44": "OUTPUT",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "EL_PA103A03_3",
+        "v45": ""
+      },
+      "KEY2": {
+        "v44": "OUTPUT",
+        "v45": ""
+      },
+      "VAL2": {
+        "v44": "EL_PA103A03_4",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "A103A03_3 : SUPPORT BEAM (CAR HITCH측)",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 8,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "A103A03_4 : SUPPORT BEAM (CWT HITCH측)",
+    "REMARKS_v45": "A103A03_3 : SUPPORT BEAM (CAR HITCH측)",
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_3:",
+      "EL_PA103A03_4:"
+    ],
+    "KEYS_v45": [
+      "OUTPUT:EL_PA103A03_3",
+      "OUTPUT:EL_PA103A03_4"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651273",
+        "v45": "101931677"
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_3",
+        "v45": "OUTPUT"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "EL_PA103A03_3"
+      },
+      "KEY2": {
+        "v44": "EL_PA103A03_4",
+        "v45": "OUTPUT"
+      },
+      "VAL2": {
+        "v44": "",
+        "v45": "EL_PA103A03_4"
+      },
+      "REMARKS": {
+        "v44": "A103A03_4 : SUPPORT BEAM (CWT HITCH측)",
+        "v45": "A103A03_3 : SUPPORT BEAM (CAR HITCH측)"
+      }
+    }
+  },
+  {
+    "NO": 9,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "MAIN",
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "A103A03_4 : SUPPORT BEAM (CWT HITCH측)",
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_3:",
+      "EL_PA103A03_4:"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651274",
+        "v45": "101931678"
+      },
+      "ADDR": {
+        "v44": "MAIN",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_3"
+      },
+      "KEY2": {
+        "v44": "",
+        "v45": "EL_PA103A03_4"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "A103A03_4 : SUPPORT BEAM (CWT HITCH측)"
+      }
+    }
+  },
+  {
+    "NO": 10,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "MAIN",
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:,GTLX,GTLX_E",
+      "EL_ETM:?GH?",
+      "FIRST_DATE:<=20230806"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_1:10101604G0100"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651275",
+        "v45": "101931679"
+      },
+      "ADDR": {
+        "v44": "",
+        "v45": "MAIN"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": ",GTLX,GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "?GH?",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "FIRST_DATE",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "<=20230806",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_1",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10101604G0100",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 11,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:,GTLX,GTLX_E",
+      "EL_ETM:?GH?",
+      "FIRST_DATE:<=20230806"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_1:10101604G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651276",
+        "v45": "101931680"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": ",GTLX,GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "?GH?"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "FIRST_DATE"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "<=20230806"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_1"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10101604G0100"
+      }
+    }
+  },
+  {
+    "NO": 12,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": null,
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>=500,<=600"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013266"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651277",
+        "v45": "101931681"
+      },
+      "SPEC1": {
+        "v44": "EL_ABRAND",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "NEX_MR",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ASPSCD",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "KC01",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "N",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_ECWTP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": ""
+      },
+      "SPEC6": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON6": {
+        "v44": ",GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+        "v45": ""
+      },
+      "SPEC7": {
+        "v44": "EL_ACAPA",
+        "v45": ""
+      },
+      "CON7": {
+        "v44": ">=450,<=1200",
+        "v45": ""
+      },
+      "SPEC8": {
+        "v44": "EL_ASPD",
+        "v45": ""
+      },
+      "CON8": {
+        "v44": ">=60,<=105",
+        "v45": ""
+      },
+      "SPEC9": {
+        "v44": "EL_ERPW",
+        "v45": ""
+      },
+      "CON9": {
+        "v44": ",2,3,4",
+        "v45": ""
+      },
+      "SPEC10": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON10": {
+        "v44": ">=500,<=600",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "C101P013266",
+        "v45": ""
+      },
+      "GOTO": {
+        "v44": "PICK3",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "K10310416G01",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 13,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>600,<=700"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>=500,<=600",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013267"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013266"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651278",
+        "v45": "101931682"
+      },
+      "CON10": {
+        "v44": ">600,<=700",
+        "v45": ">=500,<=600"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013267",
+        "v45": "C101P013266"
+      }
+    }
+  },
+  {
+    "NO": 14,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>700,<=800"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>600,<=700",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013268"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013267"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651279",
+        "v45": "101931683"
+      },
+      "CON10": {
+        "v44": ">700,<=800",
+        "v45": ">600,<=700"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013268",
+        "v45": "C101P013267"
+      }
+    }
+  },
+  {
+    "NO": 15,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>800,<=900"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>700,<=800",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013269"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013268"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651280",
+        "v45": "101931684"
+      },
+      "CON10": {
+        "v44": ">800,<=900",
+        "v45": ">700,<=800"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013269",
+        "v45": "C101P013268"
+      }
+    }
+  },
+  {
+    "NO": 16,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>900,<=1000"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>800,<=900",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013270"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013269"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651281",
+        "v45": "101931685"
+      },
+      "CON10": {
+        "v44": ">900,<=1000",
+        "v45": ">800,<=900"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013270",
+        "v45": "C101P013269"
+      }
+    }
+  },
+  {
+    "NO": 17,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1000,<=1100"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>900,<=1000",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013444"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013270"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651282",
+        "v45": "101931686"
+      },
+      "CON10": {
+        "v44": ">1000,<=1100",
+        "v45": ">900,<=1000"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013444",
+        "v45": "C101P013270"
+      }
+    }
+  },
+  {
+    "NO": 18,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1100,<=1200"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1000,<=1100",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013445"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013444"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651283",
+        "v45": "101931687"
+      },
+      "CON10": {
+        "v44": ">1100,<=1200",
+        "v45": ">1000,<=1100"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013445",
+        "v45": "C101P013444"
+      }
+    }
+  },
+  {
+    "NO": 19,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1200,<=1300"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1100,<=1200",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013446"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013445"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651284",
+        "v45": "101931688"
+      },
+      "CON10": {
+        "v44": ">1200,<=1300",
+        "v45": ">1100,<=1200"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013446",
+        "v45": "C101P013445"
+      }
+    }
+  },
+  {
+    "NO": 20,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1300,<=1400"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1200,<=1300",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013447"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013446"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651285",
+        "v45": "101931689"
+      },
+      "CON10": {
+        "v44": ">1300,<=1400",
+        "v45": ">1200,<=1300"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013447",
+        "v45": "C101P013446"
+      }
+    }
+  },
+  {
+    "NO": 21,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G01",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1400,<=1500"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1300,<=1400",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013448"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013447"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651286",
+        "v45": "101931690"
+      },
+      "CON10": {
+        "v44": ">1400,<=1500",
+        "v45": ">1300,<=1400"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013448",
+        "v45": "C101P013447"
+      }
+    }
+  },
+  {
+    "NO": 22,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G01",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>=500,<=600"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1400,<=1500",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013299"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013448"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651287",
+        "v45": "101931691"
+      },
+      "CON6": {
+        "v44": ",GH25A,GH25B,GH25SA,GH25SB",
+        "v45": ",GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD"
+      },
+      "CON10": {
+        "v44": ">=500,<=600",
+        "v45": ">1400,<=1500"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013299",
+        "v45": "C101P013448"
+      },
+      "REMARKS": {
+        "v44": "K10310416G02",
+        "v45": "K10310416G01"
+      }
+    }
+  },
+  {
+    "NO": 23,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>600,<=700"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>=500,<=600",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013300"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013299"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651288",
+        "v45": "101931692"
+      },
+      "CON10": {
+        "v44": ">600,<=700",
+        "v45": ">=500,<=600"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013300",
+        "v45": "C101P013299"
+      }
+    }
+  },
+  {
+    "NO": 24,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>700,<=800"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>600,<=700",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013301"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013300"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651289",
+        "v45": "101931693"
+      },
+      "CON10": {
+        "v44": ">700,<=800",
+        "v45": ">600,<=700"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013301",
+        "v45": "C101P013300"
+      }
+    }
+  },
+  {
+    "NO": 25,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>800,<=900"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>700,<=800",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013302"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013301"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651290",
+        "v45": "101931694"
+      },
+      "CON10": {
+        "v44": ">800,<=900",
+        "v45": ">700,<=800"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013302",
+        "v45": "C101P013301"
+      }
+    }
+  },
+  {
+    "NO": 26,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>900,<=1000"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>800,<=900",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013303"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013302"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651291",
+        "v45": "101931695"
+      },
+      "CON10": {
+        "v44": ">900,<=1000",
+        "v45": ">800,<=900"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013303",
+        "v45": "C101P013302"
+      }
+    }
+  },
+  {
+    "NO": 27,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1000,<=1100"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>900,<=1000",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013449"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013303"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651292",
+        "v45": "101931696"
+      },
+      "CON10": {
+        "v44": ">1000,<=1100",
+        "v45": ">900,<=1000"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013449",
+        "v45": "C101P013303"
+      }
+    }
+  },
+  {
+    "NO": 28,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1100,<=1200"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1000,<=1100",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013450"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013449"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651293",
+        "v45": "101931697"
+      },
+      "CON10": {
+        "v44": ">1100,<=1200",
+        "v45": ">1000,<=1100"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013450",
+        "v45": "C101P013449"
+      }
+    }
+  },
+  {
+    "NO": 29,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1200,<=1300"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1100,<=1200",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013451"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013450"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651294",
+        "v45": "101931698"
+      },
+      "CON10": {
+        "v44": ">1200,<=1300",
+        "v45": ">1100,<=1200"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013451",
+        "v45": "C101P013450"
+      }
+    }
+  },
+  {
+    "NO": 30,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1300,<=1400"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1200,<=1300",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013452"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013451"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651295",
+        "v45": "101931699"
+      },
+      "CON10": {
+        "v44": ">1300,<=1400",
+        "v45": ">1200,<=1300"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013452",
+        "v45": "C101P013451"
+      }
+    }
+  },
+  {
+    "NO": 31,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G02",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1400,<=1500"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1300,<=1400",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013453"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013452"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651296",
+        "v45": "101931700"
+      },
+      "CON10": {
+        "v44": ">1400,<=1500",
+        "v45": ">1300,<=1400"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013453",
+        "v45": "C101P013452"
+      }
+    }
+  },
+  {
+    "NO": 32,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G02",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>=500,<=600"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R",
+      "EL_ETM:,GH25A,GH25B,GH25SA,GH25SB",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1400,<=1500",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013414"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013453"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651297",
+        "v45": "101931701"
+      },
+      "CON3": {
+        "v44": "Y",
+        "v45": "N"
+      },
+      "CON6": {
+        "v44": ",?GH15S?,?GH25S?",
+        "v45": ",GH25A,GH25B,GH25SA,GH25SB"
+      },
+      "CON10": {
+        "v44": ">=500,<=600",
+        "v45": ">1400,<=1500"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013414",
+        "v45": "C101P013453"
+      },
+      "REMARKS": {
+        "v44": "K10310416G03",
+        "v45": "K10310416G02"
+      }
+    }
+  },
+  {
+    "NO": 33,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>=500,<=600"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>=500,<=600",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013414"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013414"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651298",
+        "v45": "101931702"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 34,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>600,<=700"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>=500,<=600",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013415"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013414"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651299",
+        "v45": "101931703"
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "90"
+      },
+      "CON10": {
+        "v44": ">600,<=700",
+        "v45": ">=500,<=600"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013415",
+        "v45": "C101P013414"
+      }
+    }
+  },
+  {
+    "NO": 35,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>600,<=700"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>600,<=700",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013415"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013415"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651300",
+        "v45": "101931704"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 36,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>700,<=800"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>600,<=700",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013416"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013415"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651301",
+        "v45": "101931705"
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "90"
+      },
+      "CON10": {
+        "v44": ">700,<=800",
+        "v45": ">600,<=700"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013416",
+        "v45": "C101P013415"
+      }
+    }
+  },
+  {
+    "NO": 37,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>700,<=800"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>700,<=800",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013416"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013416"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651302",
+        "v45": "101931706"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 38,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>800,<=900"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>700,<=800",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013417"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013416"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651303",
+        "v45": "101931707"
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "90"
+      },
+      "CON10": {
+        "v44": ">800,<=900",
+        "v45": ">700,<=800"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013417",
+        "v45": "C101P013416"
+      }
+    }
+  },
+  {
+    "NO": 39,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>800,<=900"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>800,<=900",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013417"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013417"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651304",
+        "v45": "101931708"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 40,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>900,<=1000"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>800,<=900",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013418"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013417"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651305",
+        "v45": "101931709"
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "90"
+      },
+      "CON10": {
+        "v44": ">900,<=1000",
+        "v45": ">800,<=900"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013418",
+        "v45": "C101P013417"
+      }
+    }
+  },
+  {
+    "NO": 41,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>900,<=1000"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>900,<=1000",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013418"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013418"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651306",
+        "v45": "101931710"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 42,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1000,<=1100"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>900,<=1000",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013429"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013418"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651307",
+        "v45": "101931711"
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "90"
+      },
+      "CON10": {
+        "v44": ">1000,<=1100",
+        "v45": ">900,<=1000"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013429",
+        "v45": "C101P013418"
+      }
+    }
+  },
+  {
+    "NO": 43,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1000,<=1100"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1000,<=1100",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013429"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013429"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651308",
+        "v45": "101931712"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 44,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1100,<=1200"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1000,<=1100",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013430"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013429"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651309",
+        "v45": "101931713"
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "90"
+      },
+      "CON10": {
+        "v44": ">1100,<=1200",
+        "v45": ">1000,<=1100"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013430",
+        "v45": "C101P013429"
+      }
+    }
+  },
+  {
+    "NO": 45,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1100,<=1200"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1100,<=1200",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013430"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013430"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651310",
+        "v45": "101931714"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 46,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1200,<=1300"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1100,<=1200",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013431"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013430"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651311",
+        "v45": "101931715"
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "90"
+      },
+      "CON10": {
+        "v44": ">1200,<=1300",
+        "v45": ">1100,<=1200"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013431",
+        "v45": "C101P013430"
+      }
+    }
+  },
+  {
+    "NO": 47,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1200,<=1300"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1200,<=1300",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013431"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013431"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651312",
+        "v45": "101931716"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 48,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1300,<=1400"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1200,<=1300",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013432"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013431"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651313",
+        "v45": "101931717"
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "90"
+      },
+      "CON10": {
+        "v44": ">1300,<=1400",
+        "v45": ">1200,<=1300"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013432",
+        "v45": "C101P013431"
+      }
+    }
+  },
+  {
+    "NO": 49,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1300,<=1400"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1300,<=1400",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013432"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013432"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651314",
+        "v45": "101931718"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 50,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1400,<=1500"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1300,<=1400",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013433"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013432"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651315",
+        "v45": "101931719"
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "90"
+      },
+      "CON10": {
+        "v44": ">1400,<=1500",
+        "v45": ">1300,<=1400"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013433",
+        "v45": "C101P013432"
+      }
+    }
+  },
+  {
+    "NO": 51,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G03",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1400,<=1500"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1400,<=1500",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013433"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013433"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651316",
+        "v45": "101931720"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      }
+    }
+  },
+  {
+    "NO": 52,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G03",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>=500,<=600"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_ERPW:,2,3,4",
+      "EL_EPP:>1400,<=1500",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013419"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013433"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651317",
+        "v45": "101931721"
+      },
+      "CON5": {
+        "v44": ",SL,SR",
+        "v45": "90"
+      },
+      "SPEC6": {
+        "v44": "EL_ERPW",
+        "v45": "EL_ETM"
+      },
+      "CON6": {
+        "v44": ",2,4",
+        "v45": ",?GH15S?,?GH25S?"
+      },
+      "SPEC7": {
+        "v44": "EL_ETM",
+        "v45": "EL_ACAPA"
+      },
+      "CON7": {
+        "v44": ",?GH15S?,?GH25S?",
+        "v45": ">=450,<=1200"
+      },
+      "SPEC8": {
+        "v44": "EL_ACAPA",
+        "v45": "EL_ASPD"
+      },
+      "CON8": {
+        "v44": ">=450,<=1200",
+        "v45": ">=60,<=105"
+      },
+      "SPEC9": {
+        "v44": "EL_ASPD",
+        "v45": "EL_ERPW"
+      },
+      "CON9": {
+        "v44": ">=60,<=105",
+        "v45": ",2,3,4"
+      },
+      "CON10": {
+        "v44": ">=500,<=600",
+        "v45": ">1400,<=1500"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013419",
+        "v45": "C101P013433"
+      },
+      "REMARKS": {
+        "v44": "K10310416G04",
+        "v45": "K10310416G03"
+      }
+    }
+  },
+  {
+    "NO": 53,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>600,<=700"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>=500,<=600",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013420"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013419"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651318",
+        "v45": "101931722"
+      },
+      "CON10": {
+        "v44": ">600,<=700",
+        "v45": ">=500,<=600"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013420",
+        "v45": "C101P013419"
+      }
+    }
+  },
+  {
+    "NO": 54,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>700,<=800"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>600,<=700",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013421"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013420"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651319",
+        "v45": "101931723"
+      },
+      "CON10": {
+        "v44": ">700,<=800",
+        "v45": ">600,<=700"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013421",
+        "v45": "C101P013420"
+      }
+    }
+  },
+  {
+    "NO": 55,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>800,<=900"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>700,<=800",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013422"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013421"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651320",
+        "v45": "101931724"
+      },
+      "CON10": {
+        "v44": ">800,<=900",
+        "v45": ">700,<=800"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013422",
+        "v45": "C101P013421"
+      }
+    }
+  },
+  {
+    "NO": 56,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>900,<=1000"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>800,<=900",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013423"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013422"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651321",
+        "v45": "101931725"
+      },
+      "CON10": {
+        "v44": ">900,<=1000",
+        "v45": ">800,<=900"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013423",
+        "v45": "C101P013422"
+      }
+    }
+  },
+  {
+    "NO": 57,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1000,<=1100"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>900,<=1000",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013434"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013423"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651322",
+        "v45": "101931726"
+      },
+      "CON10": {
+        "v44": ">1000,<=1100",
+        "v45": ">900,<=1000"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013434",
+        "v45": "C101P013423"
+      }
+    }
+  },
+  {
+    "NO": 58,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1100,<=1200"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1000,<=1100",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013435"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013434"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651323",
+        "v45": "101931727"
+      },
+      "CON10": {
+        "v44": ">1100,<=1200",
+        "v45": ">1000,<=1100"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013435",
+        "v45": "C101P013434"
+      }
+    }
+  },
+  {
+    "NO": 59,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1200,<=1300"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1100,<=1200",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013436"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013435"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651324",
+        "v45": "101931728"
+      },
+      "CON10": {
+        "v44": ">1200,<=1300",
+        "v45": ">1100,<=1200"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013436",
+        "v45": "C101P013435"
+      }
+    }
+  },
+  {
+    "NO": 60,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1300,<=1400"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1200,<=1300",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013437"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013436"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651325",
+        "v45": "101931729"
+      },
+      "CON10": {
+        "v44": ">1300,<=1400",
+        "v45": ">1200,<=1300"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013437",
+        "v45": "C101P013436"
+      }
+    }
+  },
+  {
+    "NO": 61,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G04",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1400,<=1500"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1300,<=1400",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013438"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013437"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651326",
+        "v45": "101931730"
+      },
+      "CON10": {
+        "v44": ">1400,<=1500",
+        "v45": ">1300,<=1400"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013438",
+        "v45": "C101P013437"
+      }
+    }
+  },
+  {
+    "NO": 62,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G04",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>=500,<=600"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1400,<=1500",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013424"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013438"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651327",
+        "v45": "101931731"
+      },
+      "CON6": {
+        "v44": "3",
+        "v45": ",2,4"
+      },
+      "CON10": {
+        "v44": ">=500,<=600",
+        "v45": ">1400,<=1500"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013424",
+        "v45": "C101P013438"
+      },
+      "REMARKS": {
+        "v44": "K10310416G05",
+        "v45": "K10310416G04"
+      }
+    }
+  },
+  {
+    "NO": 63,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>600,<=700"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>=500,<=600",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013425"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013424"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651328",
+        "v45": "101931732"
+      },
+      "CON10": {
+        "v44": ">600,<=700",
+        "v45": ">=500,<=600"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013425",
+        "v45": "C101P013424"
+      }
+    }
+  },
+  {
+    "NO": 64,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>700,<=800"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>600,<=700",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013426"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013425"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651329",
+        "v45": "101931733"
+      },
+      "CON10": {
+        "v44": ">700,<=800",
+        "v45": ">600,<=700"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013426",
+        "v45": "C101P013425"
+      }
+    }
+  },
+  {
+    "NO": 65,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>800,<=900"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>700,<=800",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013427"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013426"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651330",
+        "v45": "101931734"
+      },
+      "CON10": {
+        "v44": ">800,<=900",
+        "v45": ">700,<=800"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013427",
+        "v45": "C101P013426"
+      }
+    }
+  },
+  {
+    "NO": 66,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>900,<=1000"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>800,<=900",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013428"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013427"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651331",
+        "v45": "101931735"
+      },
+      "CON10": {
+        "v44": ">900,<=1000",
+        "v45": ">800,<=900"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013428",
+        "v45": "C101P013427"
+      }
+    }
+  },
+  {
+    "NO": 67,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1000,<=1100"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>900,<=1000",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013439"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013428"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651332",
+        "v45": "101931736"
+      },
+      "CON10": {
+        "v44": ">1000,<=1100",
+        "v45": ">900,<=1000"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013439",
+        "v45": "C101P013428"
+      }
+    }
+  },
+  {
+    "NO": 68,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1100,<=1200"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1000,<=1100",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013440"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013439"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651333",
+        "v45": "101931737"
+      },
+      "CON10": {
+        "v44": ">1100,<=1200",
+        "v45": ">1000,<=1100"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013440",
+        "v45": "C101P013439"
+      }
+    }
+  },
+  {
+    "NO": 69,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1200,<=1300"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1100,<=1200",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013441"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013440"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651334",
+        "v45": "101931738"
+      },
+      "CON10": {
+        "v44": ">1200,<=1300",
+        "v45": ">1100,<=1200"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013441",
+        "v45": "C101P013440"
+      }
+    }
+  },
+  {
+    "NO": 70,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1300,<=1400"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1200,<=1300",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013442"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013441"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651335",
+        "v45": "101931739"
+      },
+      "CON10": {
+        "v44": ">1300,<=1400",
+        "v45": ">1200,<=1300"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013442",
+        "v45": "C101P013441"
+      }
+    }
+  },
+  {
+    "NO": 71,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": "K10310416G05",
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1400,<=1500"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1300,<=1400",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:C101P013443"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013442"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651336",
+        "v45": "101931740"
+      },
+      "CON10": {
+        "v44": ">1400,<=1500",
+        "v45": ">1300,<=1400"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "C101P013443",
+        "v45": "C101P013442"
+      }
+    }
+  },
+  {
+    "NO": 72,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": "PICK3",
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": null,
+    "REMARKS_v45": "K10310416G05",
+    "SPECS_v44": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01"
+    ],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3",
+      "EL_ETM:,?GH15S?,?GH25S?",
+      "EL_ACAPA:>=450,<=1200",
+      "EL_ASPD:>=60,<=105",
+      "EL_EPP:>1400,<=1500",
+      "NG550_CS:N"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:C101P013443"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651337",
+        "v45": "101931741"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "Y"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_ECWTP"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": ",SL,SR"
+      },
+      "SPEC6": {
+        "v44": "",
+        "v45": "EL_ERPW"
+      },
+      "CON6": {
+        "v44": "",
+        "v45": "3"
+      },
+      "SPEC7": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON7": {
+        "v44": "",
+        "v45": ",?GH15S?,?GH25S?"
+      },
+      "SPEC8": {
+        "v44": "",
+        "v45": "EL_ACAPA"
+      },
+      "CON8": {
+        "v44": "",
+        "v45": ">=450,<=1200"
+      },
+      "SPEC9": {
+        "v44": "",
+        "v45": "EL_ASPD"
+      },
+      "CON9": {
+        "v44": "",
+        "v45": ">=60,<=105"
+      },
+      "SPEC10": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON10": {
+        "v44": "",
+        "v45": ">1400,<=1500"
+      },
+      "SPEC11": {
+        "v44": "",
+        "v45": "NG550_CS"
+      },
+      "CON11": {
+        "v44": "",
+        "v45": "N"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "C101P013443"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "K10310416G05"
+      }
+    }
+  },
+  {
+    "NO": 73,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": "PICK3",
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ABRAND:NEX_MR",
+      "EL_ASPSCD:KC01"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651338",
+        "v45": "101931742"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ABRAND"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "NEX_MR"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ASPSCD"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "KC01"
+      },
+      "GOTO": {
+        "v44": "",
+        "v45": "PICK3"
+      }
+    }
+  },
+  {
+    "NO": 74,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310416G010A"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651339",
+        "v45": "101931743"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": ",GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "N",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_ECWTP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": "R",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10310416G010A",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 75,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,GH25A,GH25B,GH25E,GH25SA,GH25SB",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310416G020A"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310416G010A"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651340",
+        "v45": "101931744"
+      },
+      "CON2": {
+        "v44": ",GH25A,GH25B,GH25E,GH25SA,GH25SB",
+        "v45": ",GH15A,GH15B,GH25C,GH25D,GH15SA,GH15SB,GH25SC,GH25SD"
+      },
+      "VAL1": {
+        "v44": "10310416G020A",
+        "v45": "10310416G010A"
+      }
+    }
+  },
+  {
+    "NO": 76,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,GH25A,GH25B,GH25E,GH25SA,GH25SB",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310416G030A"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310416G020A"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651341",
+        "v45": "101931745"
+      },
+      "CON2": {
+        "v44": ",?GH15?,?GH25?,?GH15S?,?GH25S?",
+        "v45": ",GH25A,GH25B,GH25E,GH25SA,GH25SB"
+      },
+      "CON3": {
+        "v44": "Y",
+        "v45": "N"
+      },
+      "VAL1": {
+        "v44": "10310416G030A",
+        "v45": "10310416G020A"
+      }
+    }
+  },
+  {
+    "NO": 77,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310416G030A"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310416G030A"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651342",
+        "v45": "101931746"
+      },
+      "CON4": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC5": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "90",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 78,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310416G040A"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310416G030A"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651343",
+        "v45": "101931747"
+      },
+      "CON5": {
+        "v44": ",SL,SR",
+        "v45": "90"
+      },
+      "SPEC6": {
+        "v44": "EL_ERPW",
+        "v45": ""
+      },
+      "CON6": {
+        "v44": ",2,4",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10310416G040A",
+        "v45": "10310416G030A"
+      }
+    }
+  },
+  {
+    "NO": 79,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:,2,4"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310416G050A"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310416G040A"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651344",
+        "v45": "101931748"
+      },
+      "CON6": {
+        "v44": "3",
+        "v45": ",2,4"
+      },
+      "VAL1": {
+        "v44": "10310416G050A",
+        "v45": "10310416G040A"
+      }
+    }
+  },
+  {
+    "NO": 80,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:?GH31?",
+      "EL_DREUSE:",
+      "EL_ECWTP:"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:,SL,SR",
+      "EL_ERPW:3"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310538G0100"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310416G050A"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651345",
+        "v45": "101931749"
+      },
+      "CON2": {
+        "v44": "?GH31?",
+        "v45": ",?GH15?,?GH25?,?GH15S?,?GH25S?"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "Y"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": "!R"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": ",SL,SR"
+      },
+      "SPEC6": {
+        "v44": "",
+        "v45": "EL_ERPW"
+      },
+      "CON6": {
+        "v44": "",
+        "v45": "3"
+      },
+      "VAL1": {
+        "v44": "10310538G0100",
+        "v45": "10310416G050A"
+      }
+    }
+  },
+  {
+    "NO": 81,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:?GH35?",
+      "EL_DREUSE:",
+      "EL_ECWTP:"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:?GH31?",
+      "EL_DREUSE:",
+      "EL_ECWTP:"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310918G0100"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310538G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651346",
+        "v45": "101931750"
+      },
+      "CON2": {
+        "v44": "?GH35?",
+        "v45": "?GH31?"
+      },
+      "VAL1": {
+        "v44": "10310918G0100",
+        "v45": "10310538G0100"
+      }
+    }
+  },
+  {
+    "NO": 82,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:?GH35?",
+      "EL_DREUSE:",
+      "EL_ECWTP:"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310918G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651347",
+        "v45": "101931751"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "?GH35?"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_ECWTP"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10310918G0100"
+      }
+    }
+  },
+  {
+    "NO": 83,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:?GH13?",
+      "EL_DREUSE:",
+      "EL_EPP:>=550,<=650"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310801G0100"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651348",
+        "v45": "101931752"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "?GH13?",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": ">=550,<=650",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10310801G0100",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 84,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:?GH13?",
+      "EL_DREUSE:",
+      "EL_EPP:>650,<=900"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:?GH13?",
+      "EL_DREUSE:",
+      "EL_EPP:>=550,<=650"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310801G0200"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310801G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651349",
+        "v45": "101931753"
+      },
+      "CON4": {
+        "v44": ">650,<=900",
+        "v45": ">=550,<=650"
+      },
+      "VAL1": {
+        "v44": "10310801G0200",
+        "v45": "10310801G0100"
+      }
+    }
+  },
+  {
+    "NO": 85,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:?GH13?",
+      "EL_DREUSE:",
+      "EL_EPP:>900,<=1500"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:?GH13?",
+      "EL_DREUSE:",
+      "EL_EPP:>650,<=900"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310801G0300"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310801G0200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651350",
+        "v45": "101931754"
+      },
+      "CON4": {
+        "v44": ">900,<=1500",
+        "v45": ">650,<=900"
+      },
+      "VAL1": {
+        "v44": "10310801G0300",
+        "v45": "10310801G0200"
+      }
+    }
+  },
+  {
+    "NO": 86,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:?GH18?",
+      "EL_DREUSE:",
+      "EL_EPP:>=550,<=1500"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:?GH13?",
+      "EL_DREUSE:",
+      "EL_EPP:>900,<=1500"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310802G0100"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310801G0300"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651351",
+        "v45": "101931755"
+      },
+      "CON2": {
+        "v44": "?GH18?",
+        "v45": "?GH13?"
+      },
+      "CON4": {
+        "v44": ">=550,<=1500",
+        "v45": ">900,<=1500"
+      },
+      "VAL1": {
+        "v44": "10310802G0100",
+        "v45": "10310801G0300"
+      }
+    }
+  },
+  {
+    "NO": 87,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:?GH18?",
+      "EL_DREUSE:",
+      "EL_EPP:>=550,<=1500"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310802G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651352",
+        "v45": "101931756"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "?GH18?"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": ">=550,<=1500"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10310802G0100"
+      }
+    }
+  },
+  {
+    "NO": 88,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/횡락 전체",
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0100"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651353",
+        "v45": "101931757"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "GH15SA",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_ERPW",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "2",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ""
+      },
+      "SPEC5": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "N",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311684G0100",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "신규 후락/횡락 전체",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 89,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/횡락 전체",
+    "REMARKS_v45": "신규 후락/횡락 전체",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0200"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651354",
+        "v45": "101931758"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G0200",
+        "v45": "10311684G0100"
+      }
+    }
+  },
+  {
+    "NO": 90,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/횡락 전체",
+    "REMARKS_v45": "신규 후락/횡락 전체",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0300"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651355",
+        "v45": "101931759"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G0300",
+        "v45": "10311684G0200"
+      }
+    }
+  },
+  {
+    "NO": 91,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/횡락 전체",
+    "REMARKS_v45": "신규 후락/횡락 전체",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0400"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0300"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651356",
+        "v45": "101931760"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G0400",
+        "v45": "10311684G0300"
+      }
+    }
+  },
+  {
+    "NO": 92,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "신규 후락/횡락 전체",
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0400"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651357",
+        "v45": "101931761"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "GH15SA"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_ERPW"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "2"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": ">1250,<=1500"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "N"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10311684G0400"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "신규 후락/횡락 전체"
+      }
+    }
+  },
+  {
+    "NO": 93,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/횡락 전체",
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0500"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651358",
+        "v45": "101931762"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "GH15SA",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_ERPW",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "2",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ""
+      },
+      "SPEC5": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "Y",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311684G0500",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "교체 후락/횡락 전체",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 94,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/횡락 전체",
+    "REMARKS_v45": "교체 후락/횡락 전체",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0600"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0500"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651359",
+        "v45": "101931763"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G0600",
+        "v45": "10311684G0500"
+      }
+    }
+  },
+  {
+    "NO": 95,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/횡락 전체",
+    "REMARKS_v45": "교체 후락/횡락 전체",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0700"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0600"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651360",
+        "v45": "101931764"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G0700",
+        "v45": "10311684G0600"
+      }
+    }
+  },
+  {
+    "NO": 96,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/횡락 전체",
+    "REMARKS_v45": "교체 후락/횡락 전체",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0800"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0700"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651361",
+        "v45": "101931765"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G0800",
+        "v45": "10311684G0700"
+      }
+    }
+  },
+  {
+    "NO": 97,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "교체 후락/횡락 전체",
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:2",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0800"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651362",
+        "v45": "101931766"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "GH15SA"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_ERPW"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "2"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": ">1250,<=1500"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "Y"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10311684G0800"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "교체 후락/횡락 전체"
+      }
+    }
+  },
+  {
+    "NO": 98,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0900"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651363",
+        "v45": "101931767"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "GH15SA",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_ERPW",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "3",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ""
+      },
+      "SPEC5": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "N",
+        "v45": ""
+      },
+      "SPEC6": {
+        "v44": "EL_ECWTP",
+        "v45": ""
+      },
+      "CON6": {
+        "v44": "R",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311684G0900",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "신규 후락/신규 횡락(LH)",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 99,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1000"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0900"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651364",
+        "v45": "101931768"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G1000",
+        "v45": "10311684G0900"
+      }
+    }
+  },
+  {
+    "NO": 100,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1100"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1000"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651365",
+        "v45": "101931769"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G1100",
+        "v45": "10311684G1000"
+      }
+    }
+  },
+  {
+    "NO": 101,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1200"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651366",
+        "v45": "101931770"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G1200",
+        "v45": "10311684G1100"
+      }
+    }
+  },
+  {
+    "NO": 102,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0900"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651367",
+        "v45": "101931771"
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ">1250,<=1500"
+      },
+      "CON6": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC7": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON7": {
+        "v44": "90",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311684G0900",
+        "v45": "10311684G1200"
+      }
+    }
+  },
+  {
+    "NO": 103,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1000"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0900"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651368",
+        "v45": "101931772"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G1000",
+        "v45": "10311684G0900"
+      }
+    }
+  },
+  {
+    "NO": 104,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1100"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1000"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651369",
+        "v45": "101931773"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G1100",
+        "v45": "10311684G1000"
+      }
+    }
+  },
+  {
+    "NO": 105,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1200"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651370",
+        "v45": "101931774"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G1200",
+        "v45": "10311684G1100"
+      }
+    }
+  },
+  {
+    "NO": 106,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G0900"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651371",
+        "v45": "101931775"
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ">1250,<=1500"
+      },
+      "CON7": {
+        "v44": "SL",
+        "v45": "90"
+      },
+      "VAL1": {
+        "v44": "10311684G0900",
+        "v45": "10311684G1200"
+      }
+    }
+  },
+  {
+    "NO": 107,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1000"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G0900"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651372",
+        "v45": "101931776"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G1000",
+        "v45": "10311684G0900"
+      }
+    }
+  },
+  {
+    "NO": 108,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1100"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1000"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651373",
+        "v45": "101931777"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G1100",
+        "v45": "10311684G1000"
+      }
+    }
+  },
+  {
+    "NO": 109,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 후락/신규 횡락(LH)",
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1200"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651374",
+        "v45": "101931778"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G1200",
+        "v45": "10311684G1100"
+      }
+    }
+  },
+  {
+    "NO": 110,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "신규 후락/신규 횡락(LH)",
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651375",
+        "v45": "101931779"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "GH15SA"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_ERPW"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "3"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": ">1250,<=1500"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "N"
+      },
+      "SPEC6": {
+        "v44": "",
+        "v45": "EL_ECWTP"
+      },
+      "CON6": {
+        "v44": "",
+        "v45": "!R"
+      },
+      "SPEC7": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON7": {
+        "v44": "",
+        "v45": "SL"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10311684G1200"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "신규 후락/신규 횡락(LH)"
+      }
+    }
+  },
+  {
+    "NO": 111,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 횡락(RH)",
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1300"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651376",
+        "v45": "101931780"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "GH15SA",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_ERPW",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "3",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ""
+      },
+      "SPEC5": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "N",
+        "v45": ""
+      },
+      "SPEC6": {
+        "v44": "EL_ECWTP",
+        "v45": ""
+      },
+      "CON6": {
+        "v44": "!R",
+        "v45": ""
+      },
+      "SPEC7": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON7": {
+        "v44": "SR",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311684G1300",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "신규 횡락(RH)",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 112,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 횡락(RH)",
+    "REMARKS_v45": "신규 횡락(RH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1400"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1300"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651377",
+        "v45": "101931781"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G1400",
+        "v45": "10311684G1300"
+      }
+    }
+  },
+  {
+    "NO": 113,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 횡락(RH)",
+    "REMARKS_v45": "신규 횡락(RH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1500"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1400"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651378",
+        "v45": "101931782"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G1500",
+        "v45": "10311684G1400"
+      }
+    }
+  },
+  {
+    "NO": 114,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 횡락(RH)",
+    "REMARKS_v45": "신규 횡락(RH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1600"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1500"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651379",
+        "v45": "101931783"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G1600",
+        "v45": "10311684G1500"
+      }
+    }
+  },
+  {
+    "NO": 115,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "신규 횡락(RH)",
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1600"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651380",
+        "v45": "101931784"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "GH15SA"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_ERPW"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "3"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": ">1250,<=1500"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "N"
+      },
+      "SPEC6": {
+        "v44": "",
+        "v45": "EL_ECWTP"
+      },
+      "CON6": {
+        "v44": "",
+        "v45": "!R"
+      },
+      "SPEC7": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON7": {
+        "v44": "",
+        "v45": "SR"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10311684G1600"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "신규 횡락(RH)"
+      }
+    }
+  },
+  {
+    "NO": 116,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1700"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651381",
+        "v45": "101931785"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "GH15SA",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_ERPW",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "3",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ""
+      },
+      "SPEC5": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "Y",
+        "v45": ""
+      },
+      "SPEC6": {
+        "v44": "EL_ECWTP",
+        "v45": ""
+      },
+      "CON6": {
+        "v44": "R",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311684G1700",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "교체 후락/교체 횡락(LH)",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 117,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1800"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1700"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651382",
+        "v45": "101931786"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G1800",
+        "v45": "10311684G1700"
+      }
+    }
+  },
+  {
+    "NO": 118,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1900"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1800"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651383",
+        "v45": "101931787"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G1900",
+        "v45": "10311684G1800"
+      }
+    }
+  },
+  {
+    "NO": 119,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G2000"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1900"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651384",
+        "v45": "101931788"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G2000",
+        "v45": "10311684G1900"
+      }
+    }
+  },
+  {
+    "NO": 120,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1700"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G2000"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651385",
+        "v45": "101931789"
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ">1250,<=1500"
+      },
+      "CON6": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC7": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON7": {
+        "v44": "90",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311684G1700",
+        "v45": "10311684G2000"
+      }
+    }
+  },
+  {
+    "NO": 121,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1800"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1700"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651386",
+        "v45": "101931790"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G1800",
+        "v45": "10311684G1700"
+      }
+    }
+  },
+  {
+    "NO": 122,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1900"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1800"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651387",
+        "v45": "101931791"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G1900",
+        "v45": "10311684G1800"
+      }
+    }
+  },
+  {
+    "NO": 123,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G2000"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1900"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651388",
+        "v45": "101931792"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G2000",
+        "v45": "10311684G1900"
+      }
+    }
+  },
+  {
+    "NO": 124,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1700"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G2000"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651389",
+        "v45": "101931793"
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ">1250,<=1500"
+      },
+      "CON7": {
+        "v44": "SL",
+        "v45": "90"
+      },
+      "VAL1": {
+        "v44": "10311684G1700",
+        "v45": "10311684G2000"
+      }
+    }
+  },
+  {
+    "NO": 125,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1800"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1700"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651390",
+        "v45": "101931794"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G1800",
+        "v45": "10311684G1700"
+      }
+    }
+  },
+  {
+    "NO": 126,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G1900"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1800"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651391",
+        "v45": "101931795"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G1900",
+        "v45": "10311684G1800"
+      }
+    }
+  },
+  {
+    "NO": 127,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락/교체 횡락(LH)",
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G2000"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G1900"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651392",
+        "v45": "101931796"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G2000",
+        "v45": "10311684G1900"
+      }
+    }
+  },
+  {
+    "NO": 128,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "교체 후락/교체 횡락(LH)",
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SL"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G2000"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651393",
+        "v45": "101931797"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "GH15SA"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_ERPW"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "3"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": ">1250,<=1500"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "Y"
+      },
+      "SPEC6": {
+        "v44": "",
+        "v45": "EL_ECWTP"
+      },
+      "CON6": {
+        "v44": "",
+        "v45": "!R"
+      },
+      "SPEC7": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON7": {
+        "v44": "",
+        "v45": "SL"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10311684G2000"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "교체 후락/교체 횡락(LH)"
+      }
+    }
+  },
+  {
+    "NO": 129,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 횡락(RH)",
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G2100"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651394",
+        "v45": "101931798"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "GH15SA",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_ERPW",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "3",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": ">=550,<=700",
+        "v45": ""
+      },
+      "SPEC5": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "Y",
+        "v45": ""
+      },
+      "SPEC6": {
+        "v44": "EL_ECWTP",
+        "v45": ""
+      },
+      "CON6": {
+        "v44": "!R",
+        "v45": ""
+      },
+      "SPEC7": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON7": {
+        "v44": "SR",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311684G2100",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "교체 횡락(RH)",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 130,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 횡락(RH)",
+    "REMARKS_v45": "교체 횡락(RH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>=550,<=700",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G2200"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G2100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651395",
+        "v45": "101931799"
+      },
+      "CON4": {
+        "v44": ">700,<=900",
+        "v45": ">=550,<=700"
+      },
+      "VAL1": {
+        "v44": "10311684G2200",
+        "v45": "10311684G2100"
+      }
+    }
+  },
+  {
+    "NO": 131,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 횡락(RH)",
+    "REMARKS_v45": "교체 횡락(RH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>700,<=900",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G2300"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G2200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651396",
+        "v45": "101931800"
+      },
+      "CON4": {
+        "v44": ">900,<=1250",
+        "v45": ">700,<=900"
+      },
+      "VAL1": {
+        "v44": "10311684G2300",
+        "v45": "10311684G2200"
+      }
+    }
+  },
+  {
+    "NO": 132,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 횡락(RH)",
+    "REMARKS_v45": "교체 횡락(RH)",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>900,<=1250",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311684G2400"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G2300"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651397",
+        "v45": "101931801"
+      },
+      "CON4": {
+        "v44": ">1250,<=1500",
+        "v45": ">900,<=1250"
+      },
+      "VAL1": {
+        "v44": "10311684G2400",
+        "v45": "10311684G2300"
+      }
+    }
+  },
+  {
+    "NO": 133,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "교체 횡락(RH)",
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH15SA",
+      "EL_ERPW:3",
+      "EL_EPP:>1250,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:SR"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311684G2400"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651398",
+        "v45": "101931802"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "GH15SA"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_ERPW"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "3"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": ">1250,<=1500"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "Y"
+      },
+      "SPEC6": {
+        "v44": "",
+        "v45": "EL_ECWTP"
+      },
+      "CON6": {
+        "v44": "",
+        "v45": "!R"
+      },
+      "SPEC7": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON7": {
+        "v44": "",
+        "v45": "SR"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10311684G2400"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "교체 횡락(RH)"
+      }
+    }
+  },
+  {
+    "NO": 134,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "신규 사선횡락/후락",
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH25SC",
+      "EL_EPP:>=700,<=1500",
+      "EL_DREUSE:N"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311441G0100"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651399",
+        "v45": "101931803"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "GH25SC",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": ">=700,<=1500",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": "N",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311441G0100",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "신규 사선횡락/후락",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 135,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 사선횡락",
+    "REMARKS_v45": "신규 사선횡락/후락",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH25SC",
+      "EL_EPP:>=700,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:!90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH25SC",
+      "EL_EPP:>=700,<=1500",
+      "EL_DREUSE:N"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311441G0100"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311441G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651400",
+        "v45": "101931804"
+      },
+      "CON4": {
+        "v44": "Y",
+        "v45": "N"
+      },
+      "SPEC5": {
+        "v44": "EL_ECWTP",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "!R",
+        "v45": ""
+      },
+      "SPEC6": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON6": {
+        "v44": "!90",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "교체 사선횡락",
+        "v45": "신규 사선횡락/후락"
+      }
+    }
+  },
+  {
+    "NO": 136,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "교체 사선횡락",
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH25SC",
+      "EL_EPP:>=700,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:!90"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311441G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651401",
+        "v45": "101931805"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "GH25SC"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": ">=700,<=1500"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": "Y"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_ECWTP"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "!R"
+      },
+      "SPEC6": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON6": {
+        "v44": "",
+        "v45": "!90"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10311441G0100"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "교체 사선횡락"
+      }
+    }
+  },
+  {
+    "NO": 137,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락",
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH25SC",
+      "EL_EPP:>=700,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311441G0200"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651402",
+        "v45": "101931806"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX_E",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": "GH25SC",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_EPP",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": ">=700,<=1500",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": "Y",
+        "v45": ""
+      },
+      "SPEC5": {
+        "v44": "EL_ECWTP",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "R",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10311441G0200",
+        "v45": ""
+      },
+      "REMARKS": {
+        "v44": "교체 후락",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 138,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": "교체 후락",
+    "REMARKS_v45": "교체 후락",
+    "SPECS_v44": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH25SC",
+      "EL_EPP:>=700,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH25SC",
+      "EL_EPP:>=700,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10311441G0200"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311441G0200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651403",
+        "v45": "101931807"
+      },
+      "CON5": {
+        "v44": "!R",
+        "v45": "R"
+      },
+      "SPEC6": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON6": {
+        "v44": "90",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 139,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": "교체 후락",
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX_E",
+      "EL_ETM:GH25SC",
+      "EL_EPP:>=700,<=1500",
+      "EL_DREUSE:Y",
+      "EL_ECWTP:!R",
+      "EL_EMFD:90"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10311441G0200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651404",
+        "v45": "101931808"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX_E"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": "GH25SC"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_EPP"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": ">=700,<=1500"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_DREUSE"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": "Y"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_ECWTP"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": "!R"
+      },
+      "SPEC6": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON6": {
+        "v44": "",
+        "v45": "90"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10311441G0200"
+      },
+      "REMARKS": {
+        "v44": "",
+        "v45": "교체 후락"
+      }
+    }
+  },
+  {
+    "NO": 140,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651405",
+        "v45": "101931809"
+      }
+    }
+  },
+  {
+    "NO": 141,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT17?,?GT25?,?GT35?",
+      "EL_EMFD:90",
+      "EL_DPO:!(RG)",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:!SH"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310380G0100"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651406",
+        "v45": "101931810"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": ",?GT17?,?GT25?,?GT35?",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_EMFD",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "90",
+        "v45": ""
+      },
+      "SPEC4": {
+        "v44": "EL_DPO",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": "!(RG)",
+        "v45": ""
+      },
+      "SPEC5": {
+        "v44": "EL_DTMDP",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": ",A,B",
+        "v45": ""
+      },
+      "SPEC6": {
+        "v44": "EL_EMCBD",
+        "v45": ""
+      },
+      "CON6": {
+        "v44": "!SH",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_2",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10310380G0100",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 142,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT17?,?GT35?",
+      "EL_EMFD:90",
+      "EL_DPO:!(RG)",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:SH"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT17?,?GT25?,?GT35?",
+      "EL_EMFD:90",
+      "EL_DPO:!(RG)",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:!SH"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310380G0100"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310380G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651407",
+        "v45": "101931811"
+      },
+      "CON2": {
+        "v44": ",?GT17?,?GT35?",
+        "v45": ",?GT17?,?GT25?,?GT35?"
+      },
+      "CON6": {
+        "v44": "SH",
+        "v45": "!SH"
+      }
+    }
+  },
+  {
+    "NO": 143,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:",
+      "EL_ETM:?GT25?",
+      "EL_EMFD:90",
+      "EL_DPO:!(RG)",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:SH"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT17?,?GT35?",
+      "EL_EMFD:90",
+      "EL_DPO:!(RG)",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:SH"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:V0027297G0100"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310380G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651408",
+        "v45": "101931812"
+      },
+      "CON2": {
+        "v44": "?GT25?",
+        "v45": ",?GT17?,?GT35?"
+      },
+      "VAL1": {
+        "v44": "V0027297G0100",
+        "v45": "10310380G0100"
+      }
+    }
+  },
+  {
+    "NO": 144,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT17?,?GT25?,?GT35?",
+      "EL_EMFD:,SL,SR",
+      "EL_DPO:!(RG)",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:",
+      "EL_ETM:?GT25?",
+      "EL_EMFD:90",
+      "EL_DPO:!(RG)",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:SH"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310380G0200"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:V0027297G0100"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651409",
+        "v45": "101931813"
+      },
+      "CON2": {
+        "v44": ",?GT17?,?GT25?,?GT35?",
+        "v45": "?GT25?"
+      },
+      "CON3": {
+        "v44": ",SL,SR",
+        "v45": "90"
+      },
+      "CON6": {
+        "v44": "",
+        "v45": "SH"
+      },
+      "VAL1": {
+        "v44": "10310380G0200",
+        "v45": "V0027297G0100"
+      }
+    }
+  },
+  {
+    "NO": 145,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT50?,?GT70?,?GT71?",
+      "EL_EMFD:,SL,SR",
+      "EL_DPO:",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT17?,?GT25?,?GT35?",
+      "EL_EMFD:,SL,SR",
+      "EL_DPO:!(RG)",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_2:10310380G0300"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310380G0200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651410",
+        "v45": "101931814"
+      },
+      "CON2": {
+        "v44": ",?GT50?,?GT70?,?GT71?",
+        "v45": ",?GT17?,?GT25?,?GT35?"
+      },
+      "CON4": {
+        "v44": "",
+        "v45": "!(RG)"
+      },
+      "VAL1": {
+        "v44": "10310380G0300",
+        "v45": "10310380G0200"
+      }
+    }
+  },
+  {
+    "NO": 146,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT50?,?GT70?,?GT71?",
+      "EL_EMFD:,SL,SR",
+      "EL_DPO:",
+      "EL_DTMDP:,A,B",
+      "EL_EMCBD:"
+    ],
+    "KEYS_v44": [],
+    "KEYS_v45": [
+      "EL_PA103A03_2:10310380G0300"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651411",
+        "v45": "101931815"
+      },
+      "SPEC1": {
+        "v44": "",
+        "v45": "EL_ATYP"
+      },
+      "SPEC2": {
+        "v44": "",
+        "v45": "EL_ETM"
+      },
+      "CON2": {
+        "v44": "",
+        "v45": ",?GT50?,?GT70?,?GT71?"
+      },
+      "SPEC3": {
+        "v44": "",
+        "v45": "EL_EMFD"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": ",SL,SR"
+      },
+      "SPEC4": {
+        "v44": "",
+        "v45": "EL_DPO"
+      },
+      "SPEC5": {
+        "v44": "",
+        "v45": "EL_DTMDP"
+      },
+      "CON5": {
+        "v44": "",
+        "v45": ",A,B"
+      },
+      "SPEC6": {
+        "v44": "",
+        "v45": "EL_EMCBD"
+      },
+      "KEY1": {
+        "v44": "",
+        "v45": "EL_PA103A03_2"
+      },
+      "VAL1": {
+        "v44": "",
+        "v45": "10310380G0300"
+      }
+    }
+  },
+  {
+    "NO": 147,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": "PICK3",
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [],
+    "SPECS_v45": [],
+    "KEYS_v44": [],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651412",
+        "v45": "101931816"
+      },
+      "ADDR": {
+        "v44": "PICK3",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 148,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": "PICK3",
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R"
+    ],
+    "SPECS_v45": [],
+    "KEYS_v44": [
+      "EL_PA103A03_3:10310082G0100",
+      "EL_PA103A03_4:10310082G0200"
+    ],
+    "KEYS_v45": [],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651413",
+        "v45": "101931817"
+      },
+      "ADDR": {
+        "v44": "",
+        "v45": "PICK3"
+      },
+      "SPEC1": {
+        "v44": "EL_ATYP",
+        "v45": ""
+      },
+      "CON1": {
+        "v44": "GTLX",
+        "v45": ""
+      },
+      "SPEC2": {
+        "v44": "EL_ETM",
+        "v45": ""
+      },
+      "CON2": {
+        "v44": ",?GH15?,?GH25?,?GH15S?,?GH25S?",
+        "v45": ""
+      },
+      "SPEC3": {
+        "v44": "EL_DREUSE",
+        "v45": ""
+      },
+      "CON3": {
+        "v44": "N",
+        "v45": ""
+      },
+      "SPEC5": {
+        "v44": "EL_ECWTP",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "!R",
+        "v45": ""
+      },
+      "KEY1": {
+        "v44": "EL_PA103A03_3",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10310082G0100",
+        "v45": ""
+      },
+      "KEY2": {
+        "v44": "EL_PA103A03_4",
+        "v45": ""
+      },
+      "VAL2": {
+        "v44": "10310082G0200",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 149,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT50?,?GT70?,?GT71?",
+      "EL_EMFD:",
+      "EL_DTMDP:,A,B",
+      "EL_ECWTP:R",
+      "EL_EMCBD:"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:GTLX",
+      "EL_ETM:,?GH15?,?GH25?,?GH15S?,?GH25S?",
+      "EL_DREUSE:N",
+      "EL_ECWTP:!R"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_3:10300421G0300"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_3:10310082G0100",
+      "EL_PA103A03_4:10310082G0200"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651414",
+        "v45": "101931818"
+      },
+      "CON1": {
+        "v44": "",
+        "v45": "GTLX"
+      },
+      "CON2": {
+        "v44": ",?GT50?,?GT70?,?GT71?",
+        "v45": ",?GH15?,?GH25?,?GH15S?,?GH25S?"
+      },
+      "SPEC3": {
+        "v44": "EL_EMFD",
+        "v45": "EL_DREUSE"
+      },
+      "CON3": {
+        "v44": "",
+        "v45": "N"
+      },
+      "SPEC4": {
+        "v44": "EL_DTMDP",
+        "v45": ""
+      },
+      "CON4": {
+        "v44": ",A,B",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": "R",
+        "v45": "!R"
+      },
+      "SPEC6": {
+        "v44": "EL_EMCBD",
+        "v45": ""
+      },
+      "VAL1": {
+        "v44": "10300421G0300",
+        "v45": "10310082G0100"
+      },
+      "KEY2": {
+        "v44": "",
+        "v45": "EL_PA103A03_4"
+      },
+      "VAL2": {
+        "v44": "",
+        "v45": "10310082G0200"
+      }
+    }
+  },
+  {
+    "NO": 150,
+    "TYPE": "MODIFIED",
+    "ADDR_v44": null,
+    "ADDR_v45": null,
+    "GOTO_v44": null,
+    "GOTO_v45": null,
+    "REMARKS_v44": null,
+    "REMARKS_v45": null,
+    "SPECS_v44": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT50?,?GT70?,?GT71?",
+      "EL_EMFD:90",
+      "EL_DTMDP:,A,B",
+      "EL_ECWTP:,R/L,R/R",
+      "EL_EMCBD:SH"
+    ],
+    "SPECS_v45": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT50?,?GT70?,?GT71?",
+      "EL_EMFD:",
+      "EL_DTMDP:,A,B",
+      "EL_ECWTP:R",
+      "EL_EMCBD:"
+    ],
+    "KEYS_v44": [
+      "EL_PA103A03_3:10300421G0300"
+    ],
+    "KEYS_v45": [
+      "EL_PA103A03_3:10300421G0300"
+    ],
+    "field_diffs": {
+      "DOUID": {
+        "v44": "91651415",
+        "v45": "101931819"
+      },
+      "CON3": {
+        "v44": "90",
+        "v45": ""
+      },
+      "CON5": {
+        "v44": ",R/L,R/R",
+        "v45": "R"
+      },
+      "CON6": {
+        "v44": "SH",
+        "v45": ""
+      }
+    }
+  },
+  {
+    "NO": 151,
+    "TYPE": "ADDED_IN_V45",
+    "ADDR": null,
+    "GOTO": null,
+    "REMARKS": null,
+    "SPECS": [
+      "EL_ATYP:",
+      "EL_ETM:,?GT50?,?GT70?,?GT71?",
+      "EL_EMFD:90",
+      "EL_DTMDP:,A,B",
+      "EL_ECWTP:,R/L,R/R",
+      "EL_EMCBD:SH"
+    ],
+    "KEYS": [
+      "EL_PA103A03_3:10300421G0300"
+    ],
+    "v45_raw": {
+      "VERSION": "45",
+      "HOUID": 1304784,
+      "DOUID": 101931820,
+      "NO": 151,
+      "ADDR": null,
+      "SPEC1": "EL_ATYP",
+      "CON1": null,
+      "SPEC2": "EL_ETM",
+      "CON2": ",?GT50?,?GT70?,?GT71?",
+      "SPEC3": "EL_EMFD",
+      "CON3": "90",
+      "SPEC4": "EL_DTMDP",
+      "CON4": ",A,B",
+      "SPEC5": "EL_ECWTP",
+      "CON5": ",R/L,R/R",
+      "SPEC6": "EL_EMCBD",
+      "CON6": "SH",
+      "SPEC7": null,
+      "CON7": null,
+      "SPEC8": null,
+      "CON8": null,
+      "SPEC9": null,
+      "CON9": null,
+      "SPEC10": null,
+      "CON10": null,
+      "SPEC11": null,
+      "CON11": null,
+      "SPEC12": null,
+      "CON12": null,
+      "SPEC13": null,
+      "CON13": null,
+      "SPEC14": null,
+      "CON14": null,
+      "SPEC15": null,
+      "CON15": null,
+      "SPEC16": null,
+      "CON16": null,
+      "SPEC17": null,
+      "CON17": null,
+      "SPEC18": null,
+      "CON18": null,
+      "SPEC19": null,
+      "CON19": null,
+      "SPEC20": null,
+      "CON20": null,
+      "KEY1": "EL_PA103A03_3",
+      "VAL1": "10300421G0300",
+      "KEY2": null,
+      "VAL2": null,
+      "KEY3": null,
+      "VAL3": null,
+      "KEY4": null,
+      "VAL4": null,
+      "KEY5": null,
+      "VAL5": null,
+      "KEY6": null,
+      "VAL6": null,
+      "KEY7": null,
+      "VAL7": null,
+      "KEY8": null,
+      "VAL8": null,
+      "KEY9": null,
+      "VAL9": null,
+      "KEY10": null,
+      "VAL10": null,
+      "KEY11": null,
+      "VAL11": null,
+      "KEY12": null,
+      "VAL12": null,
+      "KEY13": null,
+      "VAL13": null,
+      "KEY14": null,
+      "VAL14": null,
+      "KEY15": null,
+      "VAL15": null,
+      "KEY16": null,
+      "VAL16": null,
+      "KEY17": null,
+      "VAL17": null,
+      "KEY18": null,
+      "VAL18": null,
+      "KEY19": null,
+      "VAL19": null,
+      "KEY20": null,
+      "VAL20": null,
+      "GOTO": null,
+      "REMARKS": null,
+      "SPEC21": null,
+      "CON21": null,
+      "SPEC22": null,
+      "CON22": null,
+      "SPEC23": null,
+      "CON23": null,
+      "SPEC24": null,
+      "CON24": null,
+      "SPEC25": null,
+      "CON25": null,
+      "SPEC26": null,
+      "CON26": null,
+      "SPEC27": null,
+      "CON27": null,
+      "SPEC28": null,
+      "CON28": null,
+      "SPEC29": null,
+      "CON29": null,
+      "SPEC30": null,
+      "CON30": null
+    }
+  }
+]
