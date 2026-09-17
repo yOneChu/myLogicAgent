@@ -215,7 +215,7 @@ ORDER BY D.NO
 
 
 ## 10. SQL 작성 시 주의사항
-
+0. 해당 DB는 ORACLE 이다.
 1. PID 검색 조건은 `HDEL_DEFAULT.VARIANT_H.PID` 컬럼을 사용한다.
 2. 최신 PID를 조회해야 하므로 `HDEL_DEFAULT.VARIANT_ID` 테이블과 조인한다.
 3. `HDEL_DEFAULT.VARIANT_H.HOUID = HDEL_DEFAULT.VARIANT_ID.LAST_HOUID` 조건을 누락하지 않는다.
@@ -244,6 +244,3 @@ ORDER BY D.NO
 - `ADDR`은 분기 라벨, `GOTO`는 분기 대상(또는 `STOP`)이다.  
 - NULL 값은 `NVL(컬럼, '-')`로 처리한다.
 - 상세 라인 정렬은 `ORDER BY D.NO`를 사용한다.
-
-## 13. 참고사항
-- 해당 DB는 ORACLE 입니다.

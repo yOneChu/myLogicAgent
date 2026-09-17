@@ -1,0 +1,605 @@
+{
+  "total_products": 11017,
+  "total_boms": 13281,
+  "brand": [
+    {
+      "code": "2500024062",
+      "name": "2500024062",
+      "cnt": 4331
+    },
+    {
+      "code": "2500142904",
+      "name": "2500142904",
+      "cnt": 2324
+    },
+    {
+      "code": "2248994240",
+      "name": "2248994240",
+      "cnt": 2221
+    },
+    {
+      "code": "2500142901",
+      "name": "2500142901",
+      "cnt": 1070
+    },
+    {
+      "code": "2500142903",
+      "name": "2500142903",
+      "cnt": 582
+    },
+    {
+      "code": "2500142905",
+      "name": "2500142905",
+      "cnt": 296
+    },
+    {
+      "code": "2500755031",
+      "name": "2500755031",
+      "cnt": 107
+    },
+    {
+      "code": "미등록",
+      "name": "미등록",
+      "cnt": 61
+    },
+    {
+      "code": "2500142906",
+      "name": "2500142906",
+      "cnt": 16
+    },
+    {
+      "code": "2500142900",
+      "name": "2500142900",
+      "cnt": 8
+    },
+    {
+      "code": "2500142902",
+      "name": "2500142902",
+      "cnt": 1
+    }
+  ],
+  "gisong": [
+    {
+      "code": "2500024063",
+      "name": "2500024063",
+      "cnt": 4307
+    },
+    {
+      "code": "2709281500",
+      "name": "2709281500",
+      "cnt": 2185
+    },
+    {
+      "code": "2500000731",
+      "name": "2500000731",
+      "cnt": 2108
+    },
+    {
+      "code": "2500143255",
+      "name": "2500143255",
+      "cnt": 785
+    },
+    {
+      "code": "2500111175",
+      "name": "2500111175",
+      "cnt": 501
+    },
+    {
+      "code": "2709281501",
+      "name": "2709281501",
+      "cnt": 453
+    },
+    {
+      "code": "2500143257",
+      "name": "2500143257",
+      "cnt": 302
+    },
+    {
+      "code": "2735976973",
+      "name": "2735976973",
+      "cnt": 115
+    },
+    {
+      "code": "미등록",
+      "name": "미등록",
+      "cnt": 63
+    },
+    {
+      "code": "2820725333",
+      "name": "2820725333",
+      "cnt": 58
+    },
+    {
+      "code": "2500143258",
+      "name": "2500143258",
+      "cnt": 52
+    },
+    {
+      "code": "2735976970",
+      "name": "2735976970",
+      "cnt": 25
+    },
+    {
+      "code": "2500111173",
+      "name": "2500111173",
+      "cnt": 21
+    },
+    {
+      "code": "2500292983",
+      "name": "2500292983",
+      "cnt": 16
+    },
+    {
+      "code": "2500803349",
+      "name": "2500803349",
+      "cnt": 13
+    },
+    {
+      "code": "2820725331",
+      "name": "2820725331",
+      "cnt": 4
+    },
+    {
+      "code": "2500143256",
+      "name": "2500143256",
+      "cnt": 4
+    },
+    {
+      "code": "2500803346",
+      "name": "2500803346",
+      "cnt": 2
+    },
+    {
+      "code": "2500142907",
+      "name": "2500142907",
+      "cnt": 1
+    },
+    {
+      "code": "2500803344",
+      "name": "2500803344",
+      "cnt": 1
+    },
+    {
+      "code": "2500143124",
+      "name": "2500143124",
+      "cnt": 1
+    }
+  ],
+  "aspscd": [
+    {
+      "code": "2850042712",
+      "name": "2850042712",
+      "cnt": 6338
+    },
+    {
+      "code": "2850042689",
+      "name": "2850042689",
+      "cnt": 4218
+    },
+    {
+      "code": "미등록",
+      "name": "미등록",
+      "cnt": 417
+    },
+    {
+      "code": "2850042670",
+      "name": "2850042670",
+      "cnt": 42
+    },
+    {
+      "code": "2850042677",
+      "name": "2850042677",
+      "cnt": 2
+    }
+  ],
+  "speed": [
+    {
+      "code": "2248993826",
+      "name": "2248993826",
+      "cnt": 3395
+    },
+    {
+      "code": "2248993828",
+      "name": "2248993828",
+      "cnt": 2521
+    },
+    {
+      "code": "2248993827",
+      "name": "2248993827",
+      "cnt": 2491
+    },
+    {
+      "code": "2500143319",
+      "name": "2500143319",
+      "cnt": 1236
+    },
+    {
+      "code": "2500143424",
+      "name": "2500143424",
+      "cnt": 704
+    },
+    {
+      "code": "2500143425",
+      "name": "2500143425",
+      "cnt": 280
+    },
+    {
+      "code": "2500143426",
+      "name": "2500143426",
+      "cnt": 165
+    },
+    {
+      "code": "2500143427",
+      "name": "2500143427",
+      "cnt": 104
+    },
+    {
+      "code": "미등록",
+      "name": "미등록",
+      "cnt": 63
+    },
+    {
+      "code": "2248993825",
+      "name": "2248993825",
+      "cnt": 29
+    },
+    {
+      "code": "2815103845",
+      "name": "2815103845",
+      "cnt": 13
+    },
+    {
+      "code": "2500143428",
+      "name": "2500143428",
+      "cnt": 9
+    },
+    {
+      "code": "2500143429",
+      "name": "2500143429",
+      "cnt": 4
+    },
+    {
+      "code": "2500143431",
+      "name": "2500143431",
+      "cnt": 3
+    }
+  ],
+  "capa": [
+    {
+      "code": "2500010566",
+      "name": "2500010566",
+      "cnt": 3877
+    },
+    {
+      "code": "2248993815",
+      "name": "2248993815",
+      "cnt": 1987
+    },
+    {
+      "code": "2248993813",
+      "name": "2248993813",
+      "cnt": 1002
+    },
+    {
+      "code": "2500143273",
+      "name": "2500143273",
+      "cnt": 937
+    },
+    {
+      "code": "2500143274",
+      "name": "2500143274",
+      "cnt": 894
+    },
+    {
+      "code": "2500143275",
+      "name": "2500143275",
+      "cnt": 705
+    },
+    {
+      "code": "2248993809",
+      "name": "2248993809",
+      "cnt": 443
+    },
+    {
+      "code": "2248993812",
+      "name": "2248993812",
+      "cnt": 353
+    },
+    {
+      "code": "2248993810",
+      "name": "2248993810",
+      "cnt": 232
+    },
+    {
+      "code": "2500143276",
+      "name": "2500143276",
+      "cnt": 132
+    },
+    {
+      "code": "2248993811",
+      "name": "2248993811",
+      "cnt": 100
+    },
+    {
+      "code": "2500143277",
+      "name": "2500143277",
+      "cnt": 64
+    },
+    {
+      "code": "미등록",
+      "name": "미등록",
+      "cnt": 63
+    },
+    {
+      "code": "2500143278",
+      "name": "2500143278",
+      "cnt": 55
+    },
+    {
+      "code": "2500143272",
+      "name": "2500143272",
+      "cnt": 46
+    },
+    {
+      "code": "2501416675",
+      "name": "2501416675",
+      "cnt": 46
+    },
+    {
+      "code": "2820725599",
+      "name": "2820725599",
+      "cnt": 31
+    },
+    {
+      "code": "2815103413",
+      "name": "2815103413",
+      "cnt": 13
+    },
+    {
+      "code": "2500143305",
+      "name": "2500143305",
+      "cnt": 10
+    },
+    {
+      "code": "2820725601",
+      "name": "2820725601",
+      "cnt": 10
+    },
+    {
+      "code": "2501416672",
+      "name": "2501416672",
+      "cnt": 6
+    },
+    {
+      "code": "2501416671",
+      "name": "2501416671",
+      "cnt": 2
+    },
+    {
+      "code": "2820725600",
+      "name": "2820725600",
+      "cnt": 2
+    },
+    {
+      "code": "2820725662",
+      "name": "2820725662",
+      "cnt": 2
+    },
+    {
+      "code": "2820725602",
+      "name": "2820725602",
+      "cnt": 1
+    },
+    {
+      "code": "2501416682",
+      "name": "2501416682",
+      "cnt": 1
+    },
+    {
+      "code": "2501416674",
+      "name": "2501416674",
+      "cnt": 1
+    },
+    {
+      "code": "2501416685",
+      "name": "2501416685",
+      "cnt": 1
+    },
+    {
+      "code": "2820725598",
+      "name": "2820725598",
+      "cnt": 1
+    }
+  ],
+  "parts": [
+    {
+      "PARTNO": "C12011121G010A",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE,10kg,G/S",
+      "PROD_CNT": 2134,
+      "BOM_CNT": 2134
+    },
+    {
+      "PARTNO": "121C0218G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE",
+      "PROD_CNT": 1715,
+      "BOM_CNT": 1715
+    },
+    {
+      "PARTNO": "12011121G010A",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE,10kg",
+      "PROD_CNT": 1647,
+      "BOM_CNT": 1647
+    },
+    {
+      "PARTNO": "C12011121G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE,10kg,G/S",
+      "PROD_CNT": 1418,
+      "BOM_CNT": 1418
+    },
+    {
+      "PARTNO": "12000284G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE",
+      "PROD_CNT": 1253,
+      "BOM_CNT": 1253
+    },
+    {
+      "PARTNO": "12000067G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE",
+      "PROD_CNT": 977,
+      "BOM_CNT": 977
+    },
+    {
+      "PARTNO": "12011121G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE,10kg,G/S",
+      "PROD_CNT": 891,
+      "BOM_CNT": 891
+    },
+    {
+      "PARTNO": "12000283G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE",
+      "PROD_CNT": 705,
+      "BOM_CNT": 705
+    },
+    {
+      "PARTNO": "12000166G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "FC150, 10KG",
+      "PROD_CNT": 678,
+      "BOM_CNT": 678
+    },
+    {
+      "PARTNO": "C12011121G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE,10kg,SUBSYSTEM",
+      "PROD_CNT": 461,
+      "BOM_CNT": 461
+    },
+    {
+      "PARTNO": "12011121G020A",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE,10kg",
+      "PROD_CNT": 422,
+      "BOM_CNT": 422
+    },
+    {
+      "PARTNO": "12011121G0200",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "CONCRETE,10kg,G/S",
+      "PROD_CNT": 358,
+      "BOM_CNT": 358
+    },
+    {
+      "PARTNO": "C120P016304",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "10KG",
+      "PROD_CNT": 196,
+      "BOM_CNT": 196
+    },
+    {
+      "PARTNO": "VD005319G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SS400,10.0 KG",
+      "PROD_CNT": 104,
+      "BOM_CNT": 104
+    },
+    {
+      "PARTNO": "12011078G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SS400,PIT=2200(저피트용)",
+      "PROD_CNT": 84,
+      "BOM_CNT": 84
+    },
+    {
+      "PARTNO": "12010741G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SS400",
+      "PROD_CNT": 81,
+      "BOM_CNT": 81
+    },
+    {
+      "PARTNO": "VD005319G0200",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SS400,10.0 KG",
+      "PROD_CNT": 53,
+      "BOM_CNT": 53
+    },
+    {
+      "PARTNO": "12000047G0200",
+      "PARTNAME": "WEIGHT DEVICE CLIP ASSY",
+      "SPEC": "WEIGHT DEVICE CLIP ASSY",
+      "PROD_CNT": 19,
+      "BOM_CNT": 19
+    },
+    {
+      "PARTNO": "12000166G01Z2",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SMP:신안산선,FC150, 10KG",
+      "PROD_CNT": 18,
+      "BOM_CNT": 18
+    },
+    {
+      "PARTNO": "12010375G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "HIGH SPEED,SS400, 20.0 KG",
+      "PROD_CNT": 15,
+      "BOM_CNT": 15
+    },
+    {
+      "PARTNO": "12000283G01Z2",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SMP:신안산선,CONCRETE",
+      "PROD_CNT": 13,
+      "BOM_CNT": 13
+    },
+    {
+      "PARTNO": "12010375G0200",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "HIGH SPEED,10.0 KG",
+      "PROD_CNT": 13,
+      "BOM_CNT": 13
+    },
+    {
+      "PARTNO": "12000067G01Z2",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SMP:신안산선,CONCRETE",
+      "PROD_CNT": 13,
+      "BOM_CNT": 13
+    },
+    {
+      "PARTNO": "V0016645G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SS400,15.0 KG",
+      "PROD_CNT": 8,
+      "BOM_CNT": 8
+    },
+    {
+      "PARTNO": "12011232G0200",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SS400,10kg, E125x65",
+      "PROD_CNT": 2,
+      "BOM_CNT": 2
+    },
+    {
+      "PARTNO": "12011232G0100",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "SS400,19kg, E125x65",
+      "PROD_CNT": 2,
+      "BOM_CNT": 2
+    },
+    {
+      "PARTNO": "C120P004890",
+      "PARTNAME": "BALANCE WEIGHT",
+      "SPEC": "Q235A",
+      "PROD_CNT": 1,
+      "BOM_CNT": 1
+    }
+  ]
+}
