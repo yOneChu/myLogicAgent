@@ -1,0 +1,106 @@
+{
+  "B120A_BWALLT": {
+    "raw": null,
+    "dec": ""
+  },
+  "BEAM_SPEC_CHANGE": {
+    "raw": null,
+    "dec": ""
+  },
+  "CABLE_LTYPE": {
+    "raw": null,
+    "dec": ""
+  },
+  "DEL_FIT_BRKT": {
+    "raw": null,
+    "dec": ""
+  },
+  "DWG_B125A": {
+    "raw": null,
+    "dec": ""
+  },
+  "EL_AARRT": {
+    "raw": 2500000724,
+    "dec": ""
+  },
+  "EL_ABRAND": {
+    "raw": 2248994240,
+    "dec": "N:EX_MRL (넥스 기계실 무)"
+  },
+  "EL_ACAPA": {
+    "raw": 2500143274,
+    "dec": "1350"
+  },
+  "EL_ACD2": {
+    "raw": 2500003598,
+    "dec": ""
+  },
+  "EL_AOPEN": {
+    "raw": 2500004296,
+    "dec": "1SCO"
+  },
+  "EL_ASPC": {
+    "raw": 2500083024,
+    "dec": "DW_01"
+  },
+  "EL_ASPD": {
+    "raw": 2248993825,
+    "dec": "45m/m (0.75m/s)"
+  },
+  "EL_ASPSCD": {
+    "raw": 2850042712,
+    "dec": "KR00"
+  },
+  "EL_ATYP": {
+    "raw": 2500000731,
+    "dec": "GTSS"
+  },
+  "EL_ECCB": {
+    "raw": "1900",
+    "dec": ""
+  },
+  "EL_ECEE": {
+    "raw": "1080",
+    "dec": ""
+  },
+  "EL_ECSF": {
+    "raw": 2731470465,
+    "dec": "GSB380DK"
+  },
+  "EL_EHTRH": {
+    "raw": "2750",
+    "dec": ""
+  },
+  "EL_ETHRU": {
+    "raw": 2248972917,
+    "dec": ""
+  },
+  "EL_ETM": {
+    "raw": 2741007742,
+    "dec": "GH31A"
+  },
+  "EL_PB128A01_2": {
+    "raw": null,
+    "dec": ""
+  },
+  "FIRST_DATE": {
+    "raw": null,
+    "dec": ""
+  },
+  "PLANB_WT_YN": {
+    "raw": null,
+    "dec": ""
+  },
+  "SHINANSAN_NEGO": {
+    "raw": null,
+    "dec": ""
+  },
+  "TCABLE_QTY": {
+    "raw": null,
+    "dec": ""
+  },
+  "VARI_EL_ESPBS": {
+    "raw": null,
+    "dec": ""
+  }
+}

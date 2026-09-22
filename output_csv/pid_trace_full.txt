@@ -1,0 +1,327 @@
+=== Detailed Execution Trace for PID EL_PB128A01 (HOGI: 213249L36) ===
+Row   1 | ADDR: INIT         | GOTO: -          | Status: MATCHED | Remarks: -
+Row   2 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: CALL=BALANCE_WT | Remarks: -
+Row   3 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: CALL=EL_PB125A | Remarks: DWG_B125A
+Row   4 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: CALL=CAL_B120A_BWALLT | Remarks: -
+Row   5 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: CALL=CAL_CABLE_LTYPE | Remarks: CABLE_LTYPE
+Row   6 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: CALL=CAL_DEL_GROUP_HS | Remarks: DEL_FIT_BRKT, DEL_WIRE_NET, BEAM_SPEC_CHANGE
+Row   7 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: CALL=CAL_FIRST_DATE, HANGER_ELEC=F | Remarks: FIRST_DATE
+Row   8 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: CALL=CAL_TCABLE_QTY | Remarks: -
+Row   9 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: CALL=CAL_ETS_SPD1 | Remarks: -
+Row  10 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: OUTPUT=EL_PB128A01_1 | Remarks: -
+Row  11 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: EL_PB128A01_1=None | Remarks: -
+Row  12 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: OUTPUT=EL_PB128A01_2 | Remarks: -
+Row  13 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: EL_PB128A01_2=None, CMT_TYPE_B128A01=None, DWG_B128A01=None, B128A01_HA=None | Remarks: -
+Row  14 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row  15 | ADDR: MAIN         | GOTO: -          | Status: MATCHED | Remarks: -
+Row  16 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000145, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  17 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000146, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G04
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  18 | ADDR: #            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000151, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G09 - 2본 미반영(HATCH와 동시에)
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  19 | ADDR: #            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000152, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G10 - 2본 미반영(HATCH와 동시에)
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  20 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810092G0500, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: *철심타입 2본용 국내 자재 수배, 법인 자재 추후 적용 26.06.02
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  21 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810092G0400 , CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: *철심타입 2본용 국내 자재 수배, 법인 자재 추후 적용 26.06.08
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  22 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Remarks: 미품목 (ex. LUXEN-G&CB:1400미만&철심)
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  23 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000103, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800045G01
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  24 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000104, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800045G02
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  25 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000127, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800045G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  26 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON='LUXEN_2' -> Exact match ('2248994240' == 'LUXEN_2') => False
+Row  27 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000143, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G01
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  28 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000144, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G02
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  29 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000145, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  30 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000145, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  31 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000146, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G04
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  32 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000146, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G04
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  33 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810092G0400, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=352.5 | Remarks: **2본용 기존 수배로직 유지 26.05.19
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  34 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810092G0500, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=367.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  35 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810092G0700, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=367.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  36 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810092G0700, CMT_TYPE_B128A01=D, HANGER_ELEC=WIRE, B128A01_HA=367.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  37 | ADDR: #            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000149, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G07, **HATCH CABLE HANGER와 함께 2본용 전산화 예정
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  38 | ADDR: #            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000150, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G08
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  39 | ADDR: #            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000151, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G09
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  40 | ADDR: #            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000151, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G09
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  41 | ADDR: #            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000152, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G10
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  42 | ADDR: #            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000152, CMT_TYPE_B128A01=B, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: C12800054G10
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  43 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  44 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000115, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800048G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  45 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000115, CMT_TYPE_B128A01=D, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800048G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  46 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000115, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800048G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  47 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000115, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800048G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  48 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000115, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800048G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  49 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000115, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800048G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  50 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000114, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800048G02
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  51 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000115, CMT_TYPE_B128A01=C, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800048G03, 수량 2 개
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  52 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=C128P000127, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: C12800045G03
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  53 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ABRAND): val='2248994240', CON=',NEX_MRL,NEX_MR' -> List check (2248994240 in ['NEX_MRL', 'NEX_MR']) => False
+Row  54 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row  55 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810020G0100, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON='?US?' -> Wildcard match (2500000731 against ?US?) => False
+Row  56 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810024G9300, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON='?US?' -> Wildcard match (2500000731 against ?US?) => False
+Row  57 | ADDR: -            | GOTO: STOP       | Status: SKIPPED | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON='?US?' -> Wildcard match (2500000731 against ?US?) => False
+Row  58 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row  59 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810019G0100, CMT_TYPE_B128A01=None, HANGER_ELEC=WEDGE, B128A01_HA=300 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  60 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810019G0200, CMT_TYPE_B128A01=None, HANGER_ELEC=WEDGE, B128A01_HA=375 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  61 | ADDR: -            | GOTO: CHANGE_WEDGE | Status: SKIPPED | Outputs: EL_PB128A01_1=12810020G0100, CMT_TYPE_B128A01=None, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  62 | ADDR: -            | GOTO: CHANGE_WEDGE | Status: SKIPPED | Outputs: EL_PB128A01_1=12810020G0100, CMT_TYPE_B128A01=None, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  63 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row  64 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0800, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  65 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0700, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  66 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0400, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  67 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0200, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  68 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0600, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  69 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0300, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  70 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0100, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  71 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0500, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  72 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0400, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  73 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0200, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  74 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0600, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  75 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0300, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  76 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0100, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  77 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0500, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  78 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row  79 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1800, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  80 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1700, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  81 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1400, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  82 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1200, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  83 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1600, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  84 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1300, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  85 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1100, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  86 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1500, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  87 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1400, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  88 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1200, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  89 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1600, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  90 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1300, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  91 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1100, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  92 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1500, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  93 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row  94 | ADDR: LOGIC_STOP   | GOTO: PICK2      | Status: SKIPPED | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON=',GTLX,GTSS,GTLX_E,GTSS_E' -> List check (2500000731 in ['GTLX', 'GTSS', 'GTLX_E', 'GTSS_E']) => False
+Row  95 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row  96 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810034G0100, CMT_TYPE_B128A01=None, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON='None' -> Empty CON
+Row  97 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810034G0300, CMT_TYPE_B128A01=None, HANGER_ELEC=WIRE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(EL_ATYP): val='2500000731', CON='None' -> Empty CON
+Row  98 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row  99 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810019G0100, CMT_TYPE_B128A01=None, HANGER_ELEC=WEDGE, B128A01_HA=300 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 100 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810019G0200, CMT_TYPE_B128A01=None, HANGER_ELEC=WEDGE, B128A01_HA=375 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 101 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row 102 | ADDR: -            | GOTO: CHANGE_WEDGE | Status: SKIPPED | Outputs: EL_PB128A01_1=12810020G0100, CMT_TYPE_B128A01=None, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 103 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810020G0100, CMT_TYPE_B128A01=None, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 104 | ADDR: -            | GOTO: CHANGE_WEDGE | Status: SKIPPED | Outputs: EL_PB128A01_1=12810020G0100, CMT_TYPE_B128A01=None, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 105 | ADDR: -            | GOTO: CHANGE_WEDGE | Status: SKIPPED | Outputs: EL_PB128A01_1=12810020G0100, CMT_TYPE_B128A01=None, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 106 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row 107 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=128C0036G0200, CMT_TYPE_B128A01=A, HANGER_ELEC=WEDGE, B128A01_HA=423 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 108 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=128C0036G0100, CMT_TYPE_B128A01=A, HANGER_ELEC=WEDGE, B128A01_HA=423 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 109 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=128C0036G0200, CMT_TYPE_B128A01=A, HANGER_ELEC=WEDGE, B128A01_HA=423 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 110 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=128C0036G0100, CMT_TYPE_B128A01=A, HANGER_ELEC=WEDGE, B128A01_HA=423 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 111 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=128C0036G0100, CMT_TYPE_B128A01=A, HANGER_ELEC=WEDGE, B128A01_HA=423 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 112 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=128C0036G0300, CMT_TYPE_B128A01=A, HANGER_ELEC=WEDGE, B128A01_HA=423 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 113 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row 114 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810024G0100, CMT_TYPE_B128A01=A, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 115 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810024G0200, CMT_TYPE_B128A01=A, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 116 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810024G9100, CMT_TYPE_B128A01=A, HANGER_ELEC=PIPE, B128A01_HA=None | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='L' -> Exact match ('' == 'L') => False
+Row 117 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row 118 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0800, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 119 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0700, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 120 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0400, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 121 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0200, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 122 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0600, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 123 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0300, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 124 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0100, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 125 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G0500, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 126 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0400, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 127 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0200, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 128 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0600, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 129 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0300, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 130 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0100, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 131 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G0500, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D2' -> Exact match ('' == 'H_D2') => False
+Row 132 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row 133 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1800, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 134 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1700, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 135 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1400, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 136 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1200, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 137 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1600, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 138 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1300, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 139 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1100, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 140 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810037G1500, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810037, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 141 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1400, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 142 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1200, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 143 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1600, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=400 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 144 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1300, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 145 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1100, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 146 | ADDR: -            | GOTO: PICK2      | Status: SKIPPED | Outputs: EL_PB128A01_1=12810140G1500, CMT_TYPE_B128A01=A, HANGER_ELEC=WIRE, DWG_B128A01=12810140, B128A01_HA=415.5 | Remarks: -
+   --> Mismatch Reason: SPEC1(CABLE_LTYPE): val='None', CON='H_D3' -> Exact match ('' == 'H_D3') => False
+Row 147 | ADDR: -            | GOTO: PICK2      | Status: MATCHED | Remarks: -
+
+[GOTO] Jumping to ADDR 'PICK2' from Row 147...
+Row 161 | ADDR: PICK2        | GOTO: -          | Status: MATCHED | Remarks: -
+Row 162 | ADDR: -            | GOTO: -          | Status: MATCHED | Outputs: VARI_EL_ESPBS={EL_ESPBS} | Remarks: -
+Row 163 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: VARI_EL_ESPBS={BEAM_SPEC_CHANGE} | Remarks: -
+   --> Mismatch Reason: SPEC1(BEAM_SPEC_CHANGE): val='None', CON='!N' -> Is Not Empty (!N): val='' => False
+Row 164 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0100 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON='H100' -> Exact match ('' == 'H100') => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 165 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0100 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON='H100' -> Exact match ('' == 'H100') => False
+   --> Mismatch Reason: SPEC4(EL_ASPC): val='2500083024', CON='?SS_?' -> Wildcard match (2500083024 against ?SS_?) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 166 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0200 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON='H125' -> Exact match ('' == 'H125') => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 167 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0200 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON='H125' -> Exact match ('' == 'H125') => False
+   --> Mismatch Reason: SPEC4(EL_ASPC): val='2500083024', CON='?SS_?' -> Wildcard match (2500083024 against ?SS_?) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 168 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0300 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON=',H200_1,H200_1_DEFLECTOR' -> List check ( in ['H200_1', 'H200_1_DEFLECTOR']) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 169 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0300 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON=',H200_1,H200_1_DEFLECTOR' -> List check ( in ['H200_1', 'H200_1_DEFLECTOR']) => False
+   --> Mismatch Reason: SPEC4(EL_ASPC): val='2500083024', CON='?SS_?' -> Wildcard match (2500083024 against ?SS_?) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 170 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0400 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON=',H200,H200_DEFLECTOR' -> List check ( in ['H200', 'H200_DEFLECTOR']) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 171 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0400 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON=',H200,H200_DEFLECTOR' -> List check ( in ['H200', 'H200_DEFLECTOR']) => False
+   --> Mismatch Reason: SPEC4(EL_ASPC): val='2500083024', CON='?SS_?' -> Wildcard match (2500083024 against ?SS_?) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 172 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0500 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON=',E150,E150_DEFLECTOR' -> List check ( in ['E150', 'E150_DEFLECTOR']) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 173 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0500 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON=',E150,E150_DEFLECTOR' -> List check ( in ['E150', 'E150_DEFLECTOR']) => False
+   --> Mismatch Reason: SPEC4(EL_ASPC): val='2500083024', CON='?SS_?' -> Wildcard match (2500083024 against ?SS_?) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 174 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0600 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON='E125' -> Exact match ('' == 'E125') => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 175 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G0600 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON='E125' -> Exact match ('' == 'E125') => False
+   --> Mismatch Reason: SPEC4(EL_ASPC): val='2500083024', CON='?SS_?' -> Wildcard match (2500083024 against ?SS_?) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 176 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G1200 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON=',H150,H150_DEFLECTOR' -> List check ( in ['H150', 'H150_DEFLECTOR']) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 177 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: EL_PB128A01_2=12810025G1200 | Remarks: -
+   --> Mismatch Reason: SPEC3(VARI_EL_ESPBS): val='None', CON=',H150,H150_DEFLECTOR' -> List check ( in ['H150', 'H150_DEFLECTOR']) => False
+   --> Mismatch Reason: SPEC4(EL_ASPC): val='2500083024', CON='?SS_?' -> Wildcard match (2500083024 against ?SS_?) => False
+   --> Mismatch Reason: SPEC5(DEL_FIT_BRKT): val='None', CON='N' -> Exact match ('' == 'N') => False
+Row 178 | ADDR: -            | GOTO: -          | Status: MATCHED | Remarks: -
+Row 179 | ADDR: SHINANSAN    | GOTO: -          | Status: MATCHED | Outputs: CALL=CAL_SHINANSAN_NEGO | Remarks: 신안산선 SPECIAL NEGO 진행
+Row 180 | ADDR: -            | GOTO: -          | Status: SKIPPED | Outputs: NEGO_MEC_ASIS={EL_PB128A01_2}, CALL=CAL_SHINANSAN_MEC, EL_PB128A01_2={NEGO_MEC_TOBE} | Remarks: -
+   --> Mismatch Reason: SPEC1(SHINANSAN_NEGO): val='None', CON='Y' -> Exact match ('' == 'Y') => False
+   --> Mismatch Reason: SPEC2(EL_PB128A01_2): val='None', CON='!N' -> Is Not Empty (!N): val='' => False
