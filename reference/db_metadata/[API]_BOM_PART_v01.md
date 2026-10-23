@@ -4,6 +4,9 @@
 이 문서는 PLM의 BOM 및 부품 관련 API 정보를 정의합니다.
 
 
+# 목차
+01. 부품(자재)의 속성 정보 API
+02. 제품의 하위 1레벨 BOM 조회 API
 
 
 ## 01. 부품(자재)의 속성 정보 API
@@ -52,3 +55,48 @@ https://vault-in.hdel.co.kr:8070/api/findPartInfoWithList
 
 
 ---
+
+
+## 02. 제품의 하위 1레벨 BOM 조회 API
+
+제품의 하위 1레벨 BOM 정보를 조회한다.
+
+### Endpoint
+- GET 방식
+```
+https://vault-in.hdel.co.kr:8070/api/findProductInfoV01
+```
+
+### Request Parameters
+
+
+| 파라미터 | 타입 | 필수 | 값 | 설명 |
+|---|---|---|---|---|
+| `key` | string | Y | `subae` | 구분 키 |
+| `productNo` | string | Y | `호기번호` | 자재번호(품번)들 |
+
+
+### Response Columns
+
+- 반환갑은 List 형식에 제품의 하위 BOM 객체가 담겨져 있다.
+- 형식: ArrayList< 제품의 하위 BOM 객체 >
+- 제품의 하위 BOM 객체의 속성(컬럼)은 아래와 같다.
+
+| 제품의 하위 BOM 컬럼명 | 설명 |
+|---|---|
+| `productNo` | 제품(호기) 번호 |
+| `productCreDate` | 제품 (호기) 생성일 |
+| `partNo` | 자재(부품) 번호 |
+| `partName` | 자재(부품) 명 |
+| `version` | 자재(부품) 버전 |
+| `nation` | 자재코드 Ownership |
+| `desc` | name |
+| `glCode` | GL_CODE |
+| `spec` | spec |
+| `qty` | 수량 |
+| `uom` | 단위 |
+| `partSize` | partSize |
+| `blockNo` | BLOCKNO|
+| `cmt` | 주석 |
+| `blockopt` | 품목 |
+| `div` | 내작/외작 여부 |
